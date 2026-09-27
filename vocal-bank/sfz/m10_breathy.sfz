@@ -1,0 +1,21 @@
+// VocalSet by Wilkins, Seetharaman, Wahl & Pardo. CC BY 4.0. See ATTRIBUTION.md.
+// Edited/looped by Cantabile. Select vowel: MIDI 24 a, 25 e, 26 i, 27 o, 28 u.
+<global> sw_lokey=24 sw_hikey=28 sw_default=24 ampeg_attack=0.015 ampeg_release=0.18
+<group> sw_last=24 sw_label=a
+<region> sample=../samples/m10/breathy_a_59_0.wav pitch_keycenter=59 tune=6 lokey=52 hikey=66 loop_mode=loop_continuous loop_start=4309 loop_end=10682
+<group> sw_last=25 sw_label=e
+<region> sample=../samples/m10/breathy_e_62_0.wav pitch_keycenter=62 tune=-4 lokey=55 hikey=69 loop_mode=loop_continuous loop_start=3738 loop_end=9182
+<group> sw_last=26 sw_label=i
+<region> sample=../samples/m10/breathy_i_48_0.wav pitch_keycenter=48 tune=0 lokey=41 hikey=48 loop_mode=loop_continuous loop_start=6056 loop_end=17430
+<region> sample=../samples/m10/breathy_i_50_1.wav pitch_keycenter=50 tune=14 lokey=49 hikey=51 loop_mode=loop_continuous loop_start=3128 loop_end=7683
+<region> sample=../samples/m10/breathy_i_53_2.wav pitch_keycenter=53 tune=1 lokey=52 hikey=56 loop_mode=loop_continuous loop_start=3280 loop_end=8058
+<region> sample=../samples/m10/breathy_i_60_3.wav pitch_keycenter=60 tune=-15 lokey=57 hikey=67 loop_mode=loop_continuous loop_start=5279 loop_end=14430
+<group> sw_last=27 sw_label=o
+<region> sample=../samples/m10/breathy_o_48_0.wav pitch_keycenter=48 tune=7 lokey=41 hikey=48 loop_mode=loop_continuous loop_start=7414 loop_end=22678
+<region> sample=../samples/m10/breathy_o_50_1.wav pitch_keycenter=50 tune=12 lokey=49 hikey=54 loop_mode=loop_continuous loop_start=3433 loop_end=8433
+<region> sample=../samples/m10/breathy_o_60_2.wav pitch_keycenter=60 tune=-7 lokey=55 hikey=67 loop_mode=loop_continuous loop_start=3738 loop_end=9183
+<group> sw_last=28 sw_label=u
+<region> sample=../samples/m10/breathy_u_48_0.wav pitch_keycenter=48 tune=-2 lokey=41 hikey=49 loop_mode=loop_continuous loop_start=7026 loop_end=21178
+<region> sample=../samples/m10/breathy_u_50_1.wav pitch_keycenter=50 tune=-7 lokey=50 hikey=51 loop_mode=loop_continuous loop_start=4043 loop_end=9932
+<region> sample=../samples/m10/breathy_u_52_2.wav pitch_keycenter=52 tune=-8 lokey=52 hikey=57 loop_mode=loop_continuous loop_start=3280 loop_end=8059
+<region> sample=../samples/m10/breathy_u_62_3.wav pitch_keycenter=63 tune=49 lokey=58 hikey=70 loop_mode=loop_continuous loop_start=3280 loop_end=8058

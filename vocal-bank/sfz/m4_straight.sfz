@@ -1,0 +1,23 @@
+// VocalSet by Wilkins, Seetharaman, Wahl & Pardo. CC BY 4.0. See ATTRIBUTION.md.
+// Edited/looped by Cantabile. Select vowel: MIDI 24 a, 25 e, 26 i, 27 o, 28 u.
+<global> sw_lokey=24 sw_hikey=28 sw_default=24 ampeg_attack=0.015 ampeg_release=0.18
+<group> sw_last=24 sw_label=a
+<region> sample=../samples/m4/straight_a_48_0.wav pitch_keycenter=48 tune=25 lokey=41 hikey=53 loop_mode=loop_continuous loop_start=11198 loop_end=37297
+<region> sample=../samples/m4/straight_a_60_1.wav pitch_keycenter=60 tune=-5 lokey=54 hikey=62 loop_mode=loop_continuous loop_start=22452 loop_end=80780
+<region> sample=../samples/m4/straight_a_65_2.wav pitch_keycenter=65 tune=-35 lokey=63 hikey=72 loop_mode=loop_continuous loop_start=8093 loop_end=25301
+<group> sw_last=25 sw_label=e
+<region> sample=../samples/m4/straight_e_48_0.wav pitch_keycenter=48 tune=-15 lokey=41 hikey=54 loop_mode=loop_continuous loop_start=16922 loop_end=59413
+<region> sample=../samples/m4/straight_e_60_1.wav pitch_keycenter=60 tune=-22 lokey=55 hikey=62 loop_mode=loop_continuous loop_start=20026 loop_end=71408
+<region> sample=../samples/m4/straight_e_65_2.wav pitch_keycenter=65 tune=-31 lokey=63 hikey=72 loop_mode=loop_continuous loop_start=7026 loop_end=21178
+<group> sw_last=26 sw_label=i
+<region> sample=../samples/m4/straight_i_48_0.wav pitch_keycenter=48 tune=-19 lokey=41 hikey=54 loop_mode=loop_continuous loop_start=14205 loop_end=48917
+<region> sample=../samples/m4/straight_i_60_1.wav pitch_keycenter=60 tune=-32 lokey=55 hikey=62 loop_mode=loop_continuous loop_start=16436 loop_end=57538
+<region> sample=../samples/m4/straight_i_65_2.wav pitch_keycenter=65 tune=-20 lokey=63 hikey=72 loop_mode=loop_continuous loop_start=14787 loop_end=51166
+<group> sw_last=27 sw_label=o
+<region> sample=../samples/m4/straight_o_48_0.wav pitch_keycenter=48 tune=-11 lokey=41 hikey=54 loop_mode=loop_continuous loop_start=17407 loop_end=61287
+<region> sample=../samples/m4/straight_o_60_1.wav pitch_keycenter=60 tune=-10 lokey=55 hikey=62 loop_mode=loop_continuous loop_start=20026 loop_end=71408
+<region> sample=../samples/m4/straight_o_65_2.wav pitch_keycenter=65 tune=-5 lokey=63 hikey=72 loop_mode=loop_continuous loop_start=16146 loop_end=56414
+<group> sw_last=28 sw_label=u
+<region> sample=../samples/m4/straight_u_48_0.wav pitch_keycenter=48 tune=-23 lokey=41 hikey=54 loop_mode=loop_continuous loop_start=15854 loop_end=55289
+<region> sample=../samples/m4/straight_u_60_1.wav pitch_keycenter=60 tune=-7 lokey=55 hikey=62 loop_mode=loop_continuous loop_start=17795 loop_end=62786
+<region> sample=../samples/m4/straight_u_65_2.wav pitch_keycenter=65 tune=-16 lokey=63 hikey=72 loop_mode=loop_continuous loop_start=15564 loop_end=54165

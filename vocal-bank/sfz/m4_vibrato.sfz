@@ -1,0 +1,16 @@
+// VocalSet by Wilkins, Seetharaman, Wahl & Pardo. CC BY 4.0. See ATTRIBUTION.md.
+// Edited/looped by Cantabile. Select vowel: MIDI 24 a, 25 e, 26 i, 27 o, 28 u.
+<global> sw_lokey=24 sw_hikey=28 sw_default=24 ampeg_attack=0.015 ampeg_release=0.18
+<group> sw_last=24 sw_label=a
+<region> sample=../samples/m4/vibrato_a_59_0.wav pitch_keycenter=59 tune=33 lokey=52 hikey=66 loop_mode=loop_continuous loop_start=4309 loop_end=10682
+<group> sw_last=25 sw_label=e
+<region> sample=../samples/m4/vibrato_e_60_0.wav pitch_keycenter=60 tune=-14 lokey=53 hikey=67 loop_mode=loop_continuous loop_start=4043 loop_end=9932
+<group> sw_last=27 sw_label=o
+<region> sample=../samples/m4/vibrato_o_50_0.wav pitch_keycenter=50 tune=-7 lokey=43 hikey=51 loop_mode=loop_continuous loop_start=4697 loop_end=12181
+<region> sample=../samples/m4/vibrato_o_53_1.wav pitch_keycenter=53 tune=-15 lokey=52 hikey=56 loop_mode=loop_continuous loop_start=4196 loop_end=10307
+<region> sample=../samples/m4/vibrato_o_59_2.wav pitch_keycenter=59 tune=-12 lokey=57 hikey=66 loop_mode=loop_continuous loop_start=4503 loop_end=11431
+<group> sw_last=28 sw_label=u
+<region> sample=../samples/m4/vibrato_u_48_0.wav pitch_keycenter=48 tune=13 lokey=41 hikey=48 loop_mode=loop_continuous loop_start=14011 loop_end=48167
+<region> sample=../samples/m4/vibrato_u_50_1.wav pitch_keycenter=50 tune=22 lokey=49 hikey=50 loop_mode=loop_continuous loop_start=4406 loop_end=11057
+<region> sample=../samples/m4/vibrato_u_52_2.wav pitch_keycenter=52 tune=-17 lokey=51 hikey=56 loop_mode=loop_continuous loop_start=5182 loop_end=14056
+<region> sample=../samples/m4/vibrato_u_62_3.wav pitch_keycenter=62 tune=29 lokey=57 hikey=69 loop_mode=loop_continuous loop_start=5862 loop_end=16680

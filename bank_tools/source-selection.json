@@ -1,0 +1,3210 @@
+[
+  {
+    "name": "FULL/female9/scales/vibrato/f9_scales_vibrato_e.wav",
+    "offset": 19372338,
+    "compressed": 717669,
+    "size": 903054,
+    "crc": 1013043247,
+    "method": 8
+  },
+  {
+    "name": "FULL/female9/scales/vibrato/f9_scales_vibrato_u.wav",
+    "offset": 20090120,
+    "compressed": 718905,
+    "size": 911996,
+    "crc": 1328947331,
+    "method": 8
+  },
+  {
+    "name": "FULL/female9/scales/vibrato/f9_scales_vibrato_a.wav",
+    "offset": 20809138,
+    "compressed": 736730,
+    "size": 911994,
+    "crc": 1815015109,
+    "method": 8
+  },
+  {
+    "name": "FULL/female9/scales/vibrato/f9_scales_vibrato_o.wav",
+    "offset": 21545981,
+    "compressed": 686892,
+    "size": 876232,
+    "crc": 907853728,
+    "method": 8
+  },
+  {
+    "name": "FULL/female9/scales/vibrato/f9_scales_vibrato_i.wav",
+    "offset": 22232986,
+    "compressed": 731530,
+    "size": 925408,
+    "crc": 94896803,
+    "method": 8
+  },
+  {
+    "name": "FULL/female9/scales/belt/f9_scales_belt_u.wav",
+    "offset": 22964700,
+    "compressed": 483630,
+    "size": 608658,
+    "crc": 781301808,
+    "method": 8
+  },
+  {
+    "name": "FULL/female9/scales/belt/f9_scales_belt_a.wav",
+    "offset": 23448437,
+    "compressed": 458658,
+    "size": 543116,
+    "crc": 799524905,
+    "method": 8
+  },
+  {
+    "name": "FULL/female9/scales/belt/f9_scales_belt_e.wav",
+    "offset": 23907202,
+    "compressed": 481254,
+    "size": 586810,
+    "crc": 3457242558,
+    "method": 8
+  },
+  {
+    "name": "FULL/female9/scales/belt/f9_scales_belt_i.wav",
+    "offset": 24388563,
+    "compressed": 481160,
+    "size": 577446,
+    "crc": 3881664496,
+    "method": 8
+  },
+  {
+    "name": "FULL/female9/scales/belt/f9_scales_belt_o.wav",
+    "offset": 24869830,
+    "compressed": 480166,
+    "size": 583688,
+    "crc": 2589746279,
+    "method": 8
+  },
+  {
+    "name": "FULL/female9/scales/breathy/f9_scales_breathy_e.wav",
+    "offset": 34902999,
+    "compressed": 480646,
+    "size": 692580,
+    "crc": 1491396981,
+    "method": 8
+  },
+  {
+    "name": "FULL/female9/scales/breathy/f9_scales_breathy_u.wav",
+    "offset": 35383758,
+    "compressed": 461861,
+    "size": 654530,
+    "crc": 1698156224,
+    "method": 8
+  },
+  {
+    "name": "FULL/female9/scales/breathy/f9_scales_breathy_a.wav",
+    "offset": 35845732,
+    "compressed": 544231,
+    "size": 749658,
+    "crc": 1286134271,
+    "method": 8
+  },
+  {
+    "name": "FULL/female9/scales/breathy/f9_scales_breathy_o.wav",
+    "offset": 36390076,
+    "compressed": 493794,
+    "size": 700190,
+    "crc": 2451022821,
+    "method": 8
+  },
+  {
+    "name": "FULL/female9/scales/breathy/f9_scales_breathy_i.wav",
+    "offset": 36883983,
+    "compressed": 510511,
+    "size": 734438,
+    "crc": 4083194209,
+    "method": 8
+  },
+  {
+    "name": "FULL/female9/long_tones/straight/f9_long_straight_i.wav",
+    "offset": 54100571,
+    "compressed": 469644,
+    "size": 681006,
+    "crc": 2116016587,
+    "method": 8
+  },
+  {
+    "name": "FULL/female9/long_tones/straight/f9_long_straight_o.wav",
+    "offset": 54570332,
+    "compressed": 480325,
+    "size": 688788,
+    "crc": 1099377960,
+    "method": 8
+  },
+  {
+    "name": "FULL/female9/long_tones/straight/f9_long_straight_a.wav",
+    "offset": 55050774,
+    "compressed": 479318,
+    "size": 618748,
+    "crc": 408325767,
+    "method": 8
+  },
+  {
+    "name": "FULL/female9/long_tones/straight/f9_long_straight_u.wav",
+    "offset": 55530209,
+    "compressed": 455875,
+    "size": 665442,
+    "crc": 3349802193,
+    "method": 8
+  },
+  {
+    "name": "FULL/female9/long_tones/straight/f9_long_straight_e.wav",
+    "offset": 55986201,
+    "compressed": 517633,
+    "size": 731592,
+    "crc": 4221540046,
+    "method": 8
+  },
+  {
+    "name": "FULL/female7/scales/vibrato/f7_scales_vibrato_e.wav",
+    "offset": 111255837,
+    "compressed": 843281,
+    "size": 1092396,
+    "crc": 1762960932,
+    "method": 8
+  },
+  {
+    "name": "FULL/female7/scales/vibrato/f7_scales_vibrato_u.wav",
+    "offset": 112099231,
+    "compressed": 905837,
+    "size": 1177356,
+    "crc": 298855298,
+    "method": 8
+  },
+  {
+    "name": "FULL/female7/scales/vibrato/f7_scales_vibrato_a.wav",
+    "offset": 113005181,
+    "compressed": 911940,
+    "size": 1134876,
+    "crc": 2219400995,
+    "method": 8
+  },
+  {
+    "name": "FULL/female7/scales/vibrato/f7_scales_vibrato_o.wav",
+    "offset": 113917234,
+    "compressed": 922759,
+    "size": 1183424,
+    "crc": 1842907581,
+    "method": 8
+  },
+  {
+    "name": "FULL/female7/scales/vibrato/f7_scales_vibrato_i.wav",
+    "offset": 114840106,
+    "compressed": 881775,
+    "size": 1116670,
+    "crc": 2581842773,
+    "method": 8
+  },
+  {
+    "name": "FULL/female7/scales/belt/f7_scales_belt_o.wav",
+    "offset": 115722579,
+    "compressed": 626361,
+    "size": 806598,
+    "crc": 1527053449,
+    "method": 8
+  },
+  {
+    "name": "FULL/female7/scales/belt/f7_scales_belt_i.wav",
+    "offset": 116349047,
+    "compressed": 608462,
+    "size": 811206,
+    "crc": 2748937274,
+    "method": 8
+  },
+  {
+    "name": "FULL/female7/scales/belt/f7_scales_belt_e.wav",
+    "offset": 116957616,
+    "compressed": 672254,
+    "size": 861904,
+    "crc": 679479862,
+    "method": 8
+  },
+  {
+    "name": "FULL/female7/scales/belt/f7_scales_belt_u.wav",
+    "offset": 117629977,
+    "compressed": 601489,
+    "size": 797380,
+    "crc": 262739061,
+    "method": 8
+  },
+  {
+    "name": "FULL/female7/scales/belt/f7_scales_belt_a.wav",
+    "offset": 118231573,
+    "compressed": 675294,
+    "size": 838860,
+    "crc": 2917912714,
+    "method": 8
+  },
+  {
+    "name": "FULL/female7/scales/breathy/f7_scales_breathy_e.wav",
+    "offset": 136249352,
+    "compressed": 722651,
+    "size": 1017346,
+    "crc": 3835506103,
+    "method": 8
+  },
+  {
+    "name": "FULL/female7/scales/breathy/f7_scales_breathy_u.wav",
+    "offset": 136972116,
+    "compressed": 723472,
+    "size": 1011662,
+    "crc": 404042284,
+    "method": 8
+  },
+  {
+    "name": "FULL/female7/scales/breathy/f7_scales_breathy_a.wav",
+    "offset": 137695701,
+    "compressed": 828774,
+    "size": 1131010,
+    "crc": 1020165199,
+    "method": 8
+  },
+  {
+    "name": "FULL/female7/scales/breathy/f7_scales_breathy_o.wav",
+    "offset": 138524588,
+    "compressed": 746504,
+    "size": 1005978,
+    "crc": 2245101197,
+    "method": 8
+  },
+  {
+    "name": "FULL/female7/scales/breathy/f7_scales_breathy_i.wav",
+    "offset": 139271205,
+    "compressed": 743919,
+    "size": 1040078,
+    "crc": 2200814499,
+    "method": 8
+  },
+  {
+    "name": "FULL/female7/long_tones/straight/f7_long_straight_o.wav",
+    "offset": 154455931,
+    "compressed": 437044,
+    "size": 572254,
+    "crc": 889809066,
+    "method": 8
+  },
+  {
+    "name": "FULL/female7/long_tones/straight/f7_long_straight_i.wav",
+    "offset": 154893092,
+    "compressed": 441088,
+    "size": 583050,
+    "crc": 1831828465,
+    "method": 8
+  },
+  {
+    "name": "FULL/female7/long_tones/straight/f7_long_straight_e.wav",
+    "offset": 155334297,
+    "compressed": 448778,
+    "size": 593846,
+    "crc": 3835043375,
+    "method": 8
+  },
+  {
+    "name": "FULL/female7/long_tones/straight/f7_long_straight_a.wav",
+    "offset": 155783192,
+    "compressed": 496489,
+    "size": 644230,
+    "crc": 3336309419,
+    "method": 8
+  },
+  {
+    "name": "FULL/female7/long_tones/straight/f7_long_straight_u.wav",
+    "offset": 156279798,
+    "compressed": 397730,
+    "size": 550662,
+    "crc": 2240197267,
+    "method": 8
+  },
+  {
+    "name": "FULL/female1/scales/vibrato/f1_scales_vibrato_i.wav",
+    "offset": 211786957,
+    "compressed": 903026,
+    "size": 1156746,
+    "crc": 1746602444,
+    "method": 8
+  },
+  {
+    "name": "FULL/female1/scales/vibrato/f1_scales_vibrato_o.wav",
+    "offset": 212690096,
+    "compressed": 820874,
+    "size": 1064944,
+    "crc": 2069237118,
+    "method": 8
+  },
+  {
+    "name": "FULL/female1/scales/vibrato/f1_scales_vibrato_a.wav",
+    "offset": 213511083,
+    "compressed": 836025,
+    "size": 1064942,
+    "crc": 522010477,
+    "method": 8
+  },
+  {
+    "name": "FULL/female1/scales/vibrato/f1_scales_vibrato_u.wav",
+    "offset": 214347221,
+    "compressed": 823790,
+    "size": 1110844,
+    "crc": 2575977104,
+    "method": 8
+  },
+  {
+    "name": "FULL/female1/scales/vibrato/f1_scales_vibrato_e.wav",
+    "offset": 215171124,
+    "compressed": 840270,
+    "size": 1074122,
+    "crc": 1085916584,
+    "method": 8
+  },
+  {
+    "name": "FULL/female1/scales/belt/f1_scales_belt_i.wav",
+    "offset": 216011578,
+    "compressed": 712779,
+    "size": 926894,
+    "crc": 3548988445,
+    "method": 8
+  },
+  {
+    "name": "FULL/female1/scales/belt/f1_scales_belt_o.wav",
+    "offset": 216724978,
+    "compressed": 736354,
+    "size": 962542,
+    "crc": 2493577858,
+    "method": 8
+  },
+  {
+    "name": "FULL/female1/scales/belt/f1_scales_belt_a.wav",
+    "offset": 217461439,
+    "compressed": 761958,
+    "size": 998190,
+    "crc": 4076958545,
+    "method": 8
+  },
+  {
+    "name": "FULL/female1/scales/belt/f1_scales_belt_u.wav",
+    "offset": 218223504,
+    "compressed": 715294,
+    "size": 1016014,
+    "crc": 792999865,
+    "method": 8
+  },
+  {
+    "name": "FULL/female1/scales/belt/f1_scales_belt_e.wav",
+    "offset": 218938905,
+    "compressed": 764329,
+    "size": 1007102,
+    "crc": 3186003883,
+    "method": 8
+  },
+  {
+    "name": "FULL/female1/scales/breathy/f1_scales_breathy_i.wav",
+    "offset": 232306688,
+    "compressed": 485919,
+    "size": 746588,
+    "crc": 3535116280,
+    "method": 8
+  },
+  {
+    "name": "FULL/female1/scales/breathy/f1_scales_breathy_o.wav",
+    "offset": 232792720,
+    "compressed": 484823,
+    "size": 756410,
+    "crc": 8687892,
+    "method": 8
+  },
+  {
+    "name": "FULL/female1/scales/breathy/f1_scales_breathy_a.wav",
+    "offset": 233277656,
+    "compressed": 605207,
+    "size": 874286,
+    "crc": 2152810138,
+    "method": 8
+  },
+  {
+    "name": "FULL/female1/scales/breathy/f1_scales_breathy_u.wav",
+    "offset": 233882976,
+    "compressed": 470409,
+    "size": 776056,
+    "crc": 545500309,
+    "method": 8
+  },
+  {
+    "name": "FULL/female1/scales/breathy/f1_scales_breathy_e.wav",
+    "offset": 234353498,
+    "compressed": 574364,
+    "size": 903754,
+    "crc": 928044359,
+    "method": 8
+  },
+  {
+    "name": "FULL/female1/long_tones/straight/f1_long_straight_i.wav",
+    "offset": 255743433,
+    "compressed": 666894,
+    "size": 969808,
+    "crc": 3563767651,
+    "method": 8
+  },
+  {
+    "name": "FULL/female1/long_tones/straight/f1_long_straight_o.wav",
+    "offset": 256410444,
+    "compressed": 622640,
+    "size": 938526,
+    "crc": 2784732295,
+    "method": 8
+  },
+  {
+    "name": "FULL/female1/long_tones/straight/f1_long_straight_u.wav",
+    "offset": 257033201,
+    "compressed": 640214,
+    "size": 969810,
+    "crc": 3723377305,
+    "method": 8
+  },
+  {
+    "name": "FULL/female1/long_tones/straight/f1_long_straight_a.wav",
+    "offset": 257673532,
+    "compressed": 716043,
+    "size": 1042802,
+    "crc": 2758722071,
+    "method": 8
+  },
+  {
+    "name": "FULL/female1/long_tones/straight/f1_long_straight_e.wav",
+    "offset": 258389692,
+    "compressed": 641171,
+    "size": 938526,
+    "crc": 3664885913,
+    "method": 8
+  },
+  {
+    "name": "FULL/female6/scales/vibrato/f6_scales_vibrato_e.wav",
+    "offset": 314925212,
+    "compressed": 490792,
+    "size": 568742,
+    "crc": 3420536296,
+    "method": 8
+  },
+  {
+    "name": "FULL/female6/scales/vibrato/f6_scales_vibrato_a.wav",
+    "offset": 315416117,
+    "compressed": 490203,
+    "size": 562756,
+    "crc": 3255926175,
+    "method": 8
+  },
+  {
+    "name": "FULL/female6/scales/vibrato/f6_scales_vibrato_u.wav",
+    "offset": 315906433,
+    "compressed": 484645,
+    "size": 565748,
+    "crc": 2619925192,
+    "method": 8
+  },
+  {
+    "name": "FULL/female6/scales/vibrato/f6_scales_vibrato_o.wav",
+    "offset": 316391191,
+    "compressed": 477593,
+    "size": 562756,
+    "crc": 3094628602,
+    "method": 8
+  },
+  {
+    "name": "FULL/female6/scales/vibrato/f6_scales_vibrato_i.wav",
+    "offset": 316868897,
+    "compressed": 481811,
+    "size": 553776,
+    "crc": 2993719627,
+    "method": 8
+  },
+  {
+    "name": "FULL/female6/scales/belt/f6_scales_belt_i.wav",
+    "offset": 317350892,
+    "compressed": 465278,
+    "size": 562774,
+    "crc": 2383187438,
+    "method": 8
+  },
+  {
+    "name": "FULL/female6/scales/belt/f6_scales_belt_o.wav",
+    "offset": 317816277,
+    "compressed": 489328,
+    "size": 552784,
+    "crc": 1577794417,
+    "method": 8
+  },
+  {
+    "name": "FULL/female6/scales/belt/f6_scales_belt_u.wav",
+    "offset": 318305712,
+    "compressed": 454509,
+    "size": 559444,
+    "crc": 1836848571,
+    "method": 8
+  },
+  {
+    "name": "FULL/female6/scales/belt/f6_scales_belt_a.wav",
+    "offset": 318760328,
+    "compressed": 516417,
+    "size": 596072,
+    "crc": 3656349284,
+    "method": 8
+  },
+  {
+    "name": "FULL/female6/scales/belt/f6_scales_belt_e.wav",
+    "offset": 319276852,
+    "compressed": 471399,
+    "size": 536136,
+    "crc": 3645357822,
+    "method": 8
+  },
+  {
+    "name": "FULL/female6/scales/breathy/f6_scales_breathy_e.wav",
+    "offset": 328916740,
+    "compressed": 496018,
+    "size": 603638,
+    "crc": 3468089440,
+    "method": 8
+  },
+  {
+    "name": "FULL/female6/scales/breathy/f6_scales_breathy_a.wav",
+    "offset": 329412871,
+    "compressed": 502338,
+    "size": 629600,
+    "crc": 1000939775,
+    "method": 8
+  },
+  {
+    "name": "FULL/female6/scales/breathy/f6_scales_breathy_u.wav",
+    "offset": 329915322,
+    "compressed": 501517,
+    "size": 593904,
+    "crc": 3396394688,
+    "method": 8
+  },
+  {
+    "name": "FULL/female6/scales/breathy/f6_scales_breathy_o.wav",
+    "offset": 330416952,
+    "compressed": 479896,
+    "size": 577676,
+    "crc": 4016820617,
+    "method": 8
+  },
+  {
+    "name": "FULL/female6/scales/breathy/f6_scales_breathy_i.wav",
+    "offset": 330896961,
+    "compressed": 488525,
+    "size": 587412,
+    "crc": 4042171880,
+    "method": 8
+  },
+  {
+    "name": "FULL/female6/long_tones/straight/f6_long_straight_o.wav",
+    "offset": 347863048,
+    "compressed": 445217,
+    "size": 610634,
+    "crc": 582613345,
+    "method": 8
+  },
+  {
+    "name": "FULL/female6/long_tones/straight/f6_long_straight_i.wav",
+    "offset": 348308382,
+    "compressed": 436210,
+    "size": 586210,
+    "crc": 1702206776,
+    "method": 8
+  },
+  {
+    "name": "FULL/female6/long_tones/straight/f6_long_straight_e.wav",
+    "offset": 348744709,
+    "compressed": 440396,
+    "size": 596678,
+    "crc": 3819129284,
+    "method": 8
+  },
+  {
+    "name": "FULL/female6/long_tones/straight/f6_long_straight_a.wav",
+    "offset": 349185222,
+    "compressed": 464485,
+    "size": 652504,
+    "crc": 1133336972,
+    "method": 8
+  },
+  {
+    "name": "FULL/female6/long_tones/straight/f6_long_straight_u.wav",
+    "offset": 349649824,
+    "compressed": 456201,
+    "size": 628080,
+    "crc": 3299550579,
+    "method": 8
+  },
+  {
+    "name": "FULL/female8/scales/vibrato/f8_scales_vibrato_e.wav",
+    "offset": 417610466,
+    "compressed": 744945,
+    "size": 927548,
+    "crc": 1104744109,
+    "method": 8
+  },
+  {
+    "name": "FULL/female8/scales/vibrato/f8_scales_vibrato_a.wav",
+    "offset": 418355524,
+    "compressed": 758524,
+    "size": 936964,
+    "crc": 4109285238,
+    "method": 8
+  },
+  {
+    "name": "FULL/female8/scales/vibrato/f8_scales_vibrato_u.wav",
+    "offset": 419114161,
+    "compressed": 724432,
+    "size": 946380,
+    "crc": 2593460284,
+    "method": 8
+  },
+  {
+    "name": "FULL/female8/scales/vibrato/f8_scales_vibrato_o.wav",
+    "offset": 419838706,
+    "compressed": 716669,
+    "size": 899298,
+    "crc": 4142998653,
+    "method": 8
+  },
+  {
+    "name": "FULL/female8/scales/vibrato/f8_scales_vibrato_i.wav",
+    "offset": 420555488,
+    "compressed": 734471,
+    "size": 932256,
+    "crc": 467246710,
+    "method": 8
+  },
+  {
+    "name": "FULL/female8/scales/belt/f8_scales_belt_e.wav",
+    "offset": 421290143,
+    "compressed": 772811,
+    "size": 938394,
+    "crc": 911905970,
+    "method": 8
+  },
+  {
+    "name": "FULL/female8/scales/belt/f8_scales_belt_u.wav",
+    "offset": 422063061,
+    "compressed": 730260,
+    "size": 929540,
+    "crc": 1390029097,
+    "method": 8
+  },
+  {
+    "name": "FULL/female8/scales/belt/f8_scales_belt_a.wav",
+    "offset": 422793428,
+    "compressed": 740352,
+    "size": 898558,
+    "crc": 3302723073,
+    "method": 8
+  },
+  {
+    "name": "FULL/female8/scales/belt/f8_scales_belt_o.wav",
+    "offset": 423533887,
+    "compressed": 725130,
+    "size": 867574,
+    "crc": 1298652497,
+    "method": 8
+  },
+  {
+    "name": "FULL/female8/scales/belt/f8_scales_belt_i.wav",
+    "offset": 424259124,
+    "compressed": 727203,
+    "size": 894132,
+    "crc": 1484498065,
+    "method": 8
+  },
+  {
+    "name": "FULL/female8/scales/breathy/f8_scales_breathy_e.wav",
+    "offset": 436927538,
+    "compressed": 557106,
+    "size": 882892,
+    "crc": 881355115,
+    "method": 8
+  },
+  {
+    "name": "FULL/female8/scales/breathy/f8_scales_breathy_a.wav",
+    "offset": 437484757,
+    "compressed": 572950,
+    "size": 823732,
+    "crc": 767655748,
+    "method": 8
+  },
+  {
+    "name": "FULL/female8/scales/breathy/f8_scales_breathy_u.wav",
+    "offset": 438057820,
+    "compressed": 558183,
+    "size": 928400,
+    "crc": 2943847495,
+    "method": 8
+  },
+  {
+    "name": "FULL/female8/scales/breathy/f8_scales_breathy_o.wav",
+    "offset": 438616116,
+    "compressed": 558127,
+    "size": 951154,
+    "crc": 3430698950,
+    "method": 8
+  },
+  {
+    "name": "FULL/female8/scales/breathy/f8_scales_breathy_i.wav",
+    "offset": 439174356,
+    "compressed": 581786,
+    "size": 905646,
+    "crc": 3619264118,
+    "method": 8
+  },
+  {
+    "name": "FULL/female8/long_tones/straight/f8_long_straight_i.wav",
+    "offset": 461570789,
+    "compressed": 891114,
+    "size": 1147112,
+    "crc": 3768107508,
+    "method": 8
+  },
+  {
+    "name": "FULL/female8/long_tones/straight/f8_long_straight_o.wav",
+    "offset": 462462020,
+    "compressed": 863082,
+    "size": 1158036,
+    "crc": 1526233544,
+    "method": 8
+  },
+  {
+    "name": "FULL/female8/long_tones/straight/f8_long_straight_a.wav",
+    "offset": 463325219,
+    "compressed": 983833,
+    "size": 1327364,
+    "crc": 3781896168,
+    "method": 8
+  },
+  {
+    "name": "FULL/female8/long_tones/straight/f8_long_straight_u.wav",
+    "offset": 464309169,
+    "compressed": 886514,
+    "size": 1223584,
+    "crc": 54087151,
+    "method": 8
+  },
+  {
+    "name": "FULL/female8/long_tones/straight/f8_long_straight_e.wav",
+    "offset": 465195800,
+    "compressed": 887930,
+    "size": 1125262,
+    "crc": 2813297574,
+    "method": 8
+  },
+  {
+    "name": "FULL/male4/scales/vibrato/m4_scales_vibrato_e.wav",
+    "offset": 529876053,
+    "compressed": 534795,
+    "size": 664542,
+    "crc": 409087883,
+    "method": 8
+  },
+  {
+    "name": "FULL/male4/scales/vibrato/m4_scales_vibrato_a.wav",
+    "offset": 530410959,
+    "compressed": 568630,
+    "size": 714558,
+    "crc": 3261187280,
+    "method": 8
+  },
+  {
+    "name": "FULL/male4/scales/vibrato/m4_scales_vibrato_u.wav",
+    "offset": 530979700,
+    "compressed": 513401,
+    "size": 689550,
+    "crc": 1748770233,
+    "method": 8
+  },
+  {
+    "name": "FULL/male4/scales/vibrato/m4_scales_vibrato_o.wav",
+    "offset": 531493212,
+    "compressed": 550252,
+    "size": 689550,
+    "crc": 1272712138,
+    "method": 8
+  },
+  {
+    "name": "FULL/male4/scales/vibrato/m4_scales_vibrato_i.wav",
+    "offset": 532043575,
+    "compressed": 538180,
+    "size": 678832,
+    "crc": 3387261269,
+    "method": 8
+  },
+  {
+    "name": "FULL/male4/scales/belt/m4_scales_belt_o.wav",
+    "offset": 532581935,
+    "compressed": 466509,
+    "size": 611674,
+    "crc": 2295239684,
+    "method": 8
+  },
+  {
+    "name": "FULL/male4/scales/belt/m4_scales_belt_i.wav",
+    "offset": 533048549,
+    "compressed": 463779,
+    "size": 601966,
+    "crc": 2293760889,
+    "method": 8
+  },
+  {
+    "name": "FULL/male4/scales/belt/m4_scales_belt_e.wav",
+    "offset": 533512433,
+    "compressed": 465127,
+    "size": 576078,
+    "crc": 3465965122,
+    "method": 8
+  },
+  {
+    "name": "FULL/male4/scales/belt/m4_scales_belt_a.wav",
+    "offset": 533977665,
+    "compressed": 513070,
+    "size": 618148,
+    "crc": 1003165000,
+    "method": 8
+  },
+  {
+    "name": "FULL/male4/scales/belt/m4_scales_belt_u.wav",
+    "offset": 534490840,
+    "compressed": 432222,
+    "size": 585786,
+    "crc": 3094848924,
+    "method": 8
+  },
+  {
+    "name": "FULL/male4/scales/breathy/m4_scales_breathy_e.wav",
+    "offset": 545643740,
+    "compressed": 359688,
+    "size": 625742,
+    "crc": 2947253184,
+    "method": 8
+  },
+  {
+    "name": "FULL/male4/scales/breathy/m4_scales_breathy_a.wav",
+    "offset": 546003539,
+    "compressed": 397620,
+    "size": 647572,
+    "crc": 3914403902,
+    "method": 8
+  },
+  {
+    "name": "FULL/male4/scales/breathy/m4_scales_breathy_u.wav",
+    "offset": 546401270,
+    "compressed": 348703,
+    "size": 629380,
+    "crc": 4107098246,
+    "method": 8
+  },
+  {
+    "name": "FULL/male4/scales/breathy/m4_scales_breathy_o.wav",
+    "offset": 546750084,
+    "compressed": 374440,
+    "size": 611192,
+    "crc": 690551933,
+    "method": 8
+  },
+  {
+    "name": "FULL/male4/scales/breathy/m4_scales_breathy_i.wav",
+    "offset": 547124635,
+    "compressed": 335996,
+    "size": 589366,
+    "crc": 2512637255,
+    "method": 8
+  },
+  {
+    "name": "FULL/male4/long_tones/straight/m4_long_straight_o.wav",
+    "offset": 563700725,
+    "compressed": 462722,
+    "size": 649850,
+    "crc": 1180226122,
+    "method": 8
+  },
+  {
+    "name": "FULL/male4/long_tones/straight/m4_long_straight_i.wav",
+    "offset": 564163562,
+    "compressed": 445884,
+    "size": 660804,
+    "crc": 664579330,
+    "method": 8
+  },
+  {
+    "name": "FULL/male4/long_tones/straight/m4_long_straight_e.wav",
+    "offset": 564609561,
+    "compressed": 431606,
+    "size": 613346,
+    "crc": 1495587255,
+    "method": 8
+  },
+  {
+    "name": "FULL/male4/long_tones/straight/m4_long_straight_u.wav",
+    "offset": 565041282,
+    "compressed": 390623,
+    "size": 569538,
+    "crc": 1814532038,
+    "method": 8
+  },
+  {
+    "name": "FULL/male4/long_tones/straight/m4_long_straight_a.wav",
+    "offset": 565432020,
+    "compressed": 512226,
+    "size": 697310,
+    "crc": 3330491825,
+    "method": 8
+  },
+  {
+    "name": "FULL/male3/scales/vibrato/m3_scales_vibrato_i.wav",
+    "offset": 631431520,
+    "compressed": 1510035,
+    "size": 1736184,
+    "crc": 2401820477,
+    "method": 8
+  },
+  {
+    "name": "FULL/male3/scales/vibrato/m3_scales_vibrato_o.wav",
+    "offset": 632941666,
+    "compressed": 1551313,
+    "size": 1736184,
+    "crc": 1565720718,
+    "method": 8
+  },
+  {
+    "name": "FULL/male3/scales/vibrato/m3_scales_vibrato_a.wav",
+    "offset": 634493090,
+    "compressed": 1593978,
+    "size": 1801390,
+    "crc": 3819145459,
+    "method": 8
+  },
+  {
+    "name": "FULL/male3/scales/vibrato/m3_scales_vibrato_u.wav",
+    "offset": 636087179,
+    "compressed": 1563967,
+    "size": 1793240,
+    "crc": 2459606171,
+    "method": 8
+  },
+  {
+    "name": "FULL/male3/scales/vibrato/m3_scales_vibrato_e.wav",
+    "offset": 637651257,
+    "compressed": 1575780,
+    "size": 1760636,
+    "crc": 2327566148,
+    "method": 8
+  },
+  {
+    "name": "FULL/male3/scales/belt/m3_scales_belt_o.wav",
+    "offset": 639227217,
+    "compressed": 543418,
+    "size": 620196,
+    "crc": 536394171,
+    "method": 8
+  },
+  {
+    "name": "FULL/male3/scales/belt/m3_scales_belt_i.wav",
+    "offset": 639770740,
+    "compressed": 523828,
+    "size": 609918,
+    "crc": 681242230,
+    "method": 8
+  },
+  {
+    "name": "FULL/male3/scales/belt/m3_scales_belt_e.wav",
+    "offset": 640294673,
+    "compressed": 538964,
+    "size": 603064,
+    "crc": 4280413373,
+    "method": 8
+  },
+  {
+    "name": "FULL/male3/scales/belt/m3_scales_belt_u.wav",
+    "offset": 640833742,
+    "compressed": 512980,
+    "size": 582508,
+    "crc": 2186406924,
+    "method": 8
+  },
+  {
+    "name": "FULL/male3/scales/belt/m3_scales_belt_a.wav",
+    "offset": 641346827,
+    "compressed": 587687,
+    "size": 647606,
+    "crc": 2411030964,
+    "method": 8
+  },
+  {
+    "name": "FULL/male3/scales/breathy/m3_scales_breathy_i.wav",
+    "offset": 660899877,
+    "compressed": 380642,
+    "size": 495566,
+    "crc": 2820772682,
+    "method": 8
+  },
+  {
+    "name": "FULL/male3/scales/breathy/m3_scales_breathy_o.wav",
+    "offset": 661280630,
+    "compressed": 397913,
+    "size": 519162,
+    "crc": 103570179,
+    "method": 8
+  },
+  {
+    "name": "FULL/male3/scales/breathy/m3_scales_breathy_a.wav",
+    "offset": 661678654,
+    "compressed": 382149,
+    "size": 483768,
+    "crc": 176931926,
+    "method": 8
+  },
+  {
+    "name": "FULL/male3/scales/breathy/m3_scales_breathy_u.wav",
+    "offset": 662060914,
+    "compressed": 389492,
+    "size": 548658,
+    "crc": 3420850162,
+    "method": 8
+  },
+  {
+    "name": "FULL/male3/scales/breathy/m3_scales_breathy_e.wav",
+    "offset": 662450517,
+    "compressed": 363648,
+    "size": 477868,
+    "crc": 2757943512,
+    "method": 8
+  },
+  {
+    "name": "FULL/male3/long_tones/straight/m3_long_straight_i.wav",
+    "offset": 684626067,
+    "compressed": 774489,
+    "size": 1053572,
+    "crc": 2246756474,
+    "method": 8
+  },
+  {
+    "name": "FULL/male3/long_tones/straight/m3_long_straight_o.wav",
+    "offset": 685400671,
+    "compressed": 805300,
+    "size": 1085660,
+    "crc": 1543014224,
+    "method": 8
+  },
+  {
+    "name": "FULL/male3/long_tones/straight/m3_long_straight_a.wav",
+    "offset": 686206086,
+    "compressed": 776769,
+    "size": 1037528,
+    "crc": 3987427308,
+    "method": 8
+  },
+  {
+    "name": "FULL/male3/long_tones/straight/m3_long_straight_u.wav",
+    "offset": 686982970,
+    "compressed": 821683,
+    "size": 1128442,
+    "crc": 2770580943,
+    "method": 8
+  },
+  {
+    "name": "FULL/male3/long_tones/straight/m3_long_straight_e.wav",
+    "offset": 687804768,
+    "compressed": 703192,
+    "size": 962658,
+    "crc": 1245915815,
+    "method": 8
+  },
+  {
+    "name": "FULL/male2/scales/vibrato/m2_scales_vibrato_i.wav",
+    "offset": 753901819,
+    "compressed": 823958,
+    "size": 957184,
+    "crc": 743216983,
+    "method": 8
+  },
+  {
+    "name": "FULL/male2/scales/vibrato/m2_scales_vibrato_o.wav",
+    "offset": 754725888,
+    "compressed": 792113,
+    "size": 938324,
+    "crc": 1529589183,
+    "method": 8
+  },
+  {
+    "name": "FULL/male2/scales/vibrato/m2_scales_vibrato_u.wav",
+    "offset": 755518112,
+    "compressed": 765324,
+    "size": 938324,
+    "crc": 2783183630,
+    "method": 8
+  },
+  {
+    "name": "FULL/male2/scales/vibrato/m2_scales_vibrato_a.wav",
+    "offset": 756283547,
+    "compressed": 829488,
+    "size": 961900,
+    "crc": 2455054438,
+    "method": 8
+  },
+  {
+    "name": "FULL/male2/scales/vibrato/m2_scales_vibrato_e.wav",
+    "offset": 757113146,
+    "compressed": 832456,
+    "size": 957184,
+    "crc": 695740858,
+    "method": 8
+  },
+  {
+    "name": "FULL/male2/scales/belt/m2_scales_belt_i.wav",
+    "offset": 757945782,
+    "compressed": 691710,
+    "size": 814750,
+    "crc": 786562806,
+    "method": 8
+  },
+  {
+    "name": "FULL/male2/scales/belt/m2_scales_belt_o.wav",
+    "offset": 758637597,
+    "compressed": 633807,
+    "size": 794682,
+    "crc": 3326892124,
+    "method": 8
+  },
+  {
+    "name": "FULL/male2/scales/belt/m2_scales_belt_u.wav",
+    "offset": 759271509,
+    "compressed": 626115,
+    "size": 810738,
+    "crc": 3554938521,
+    "method": 8
+  },
+  {
+    "name": "FULL/male2/scales/belt/m2_scales_belt_a.wav",
+    "offset": 759897729,
+    "compressed": 704209,
+    "size": 782644,
+    "crc": 1338876978,
+    "method": 8
+  },
+  {
+    "name": "FULL/male2/scales/belt/m2_scales_belt_e.wav",
+    "offset": 760602043,
+    "compressed": 705812,
+    "size": 782644,
+    "crc": 1302275966,
+    "method": 8
+  },
+  {
+    "name": "FULL/male2/scales/breathy/m2_scales_breathy_i.wav",
+    "offset": 772268616,
+    "compressed": 762310,
+    "size": 1062870,
+    "crc": 4002782603,
+    "method": 8
+  },
+  {
+    "name": "FULL/male2/scales/breathy/m2_scales_breathy_o.wav",
+    "offset": 773031037,
+    "compressed": 732175,
+    "size": 991334,
+    "crc": 1001495198,
+    "method": 8
+  },
+  {
+    "name": "FULL/male2/scales/breathy/m2_scales_breathy_u.wav",
+    "offset": 773763323,
+    "compressed": 720678,
+    "size": 1037320,
+    "crc": 790610225,
+    "method": 8
+  },
+  {
+    "name": "FULL/male2/scales/breathy/m2_scales_breathy_a.wav",
+    "offset": 774484112,
+    "compressed": 740025,
+    "size": 1032210,
+    "crc": 3937045535,
+    "method": 8
+  },
+  {
+    "name": "FULL/male2/scales/breathy/m2_scales_breathy_e.wav",
+    "offset": 775224248,
+    "compressed": 790722,
+    "size": 1062870,
+    "crc": 1429831982,
+    "method": 8
+  },
+  {
+    "name": "FULL/male2/long_tones/straight/m2_long_straight_i.wav",
+    "offset": 796069199,
+    "compressed": 585912,
+    "size": 805234,
+    "crc": 927310791,
+    "method": 8
+  },
+  {
+    "name": "FULL/male2/long_tones/straight/m2_long_straight_o.wav",
+    "offset": 796655226,
+    "compressed": 452333,
+    "size": 694876,
+    "crc": 3230866952,
+    "method": 8
+  },
+  {
+    "name": "FULL/male2/long_tones/straight/m2_long_straight_a.wav",
+    "offset": 797107674,
+    "compressed": 587656,
+    "size": 760274,
+    "crc": 1315641583,
+    "method": 8
+  },
+  {
+    "name": "FULL/male2/long_tones/straight/m2_long_straight_u.wav",
+    "offset": 797695445,
+    "compressed": 488512,
+    "size": 764362,
+    "crc": 2287950940,
+    "method": 8
+  },
+  {
+    "name": "FULL/male2/long_tones/straight/m2_long_straight_e.wav",
+    "offset": 798184072,
+    "compressed": 632058,
+    "size": 846106,
+    "crc": 3467418231,
+    "method": 8
+  },
+  {
+    "name": "FULL/male5/scales/vibrato/m5_scales_vibrato_e.wav",
+    "offset": 869791920,
+    "compressed": 704076,
+    "size": 873922,
+    "crc": 266069220,
+    "method": 8
+  },
+  {
+    "name": "FULL/male5/scales/vibrato/m5_scales_vibrato_u.wav",
+    "offset": 870496107,
+    "compressed": 600524,
+    "size": 841726,
+    "crc": 1907543224,
+    "method": 8
+  },
+  {
+    "name": "FULL/male5/scales/vibrato/m5_scales_vibrato_a.wav",
+    "offset": 871096742,
+    "compressed": 654197,
+    "size": 837126,
+    "crc": 3713723139,
+    "method": 8
+  },
+  {
+    "name": "FULL/male5/scales/vibrato/m5_scales_vibrato_o.wav",
+    "offset": 871751050,
+    "compressed": 643299,
+    "size": 827928,
+    "crc": 1473588579,
+    "method": 8
+  },
+  {
+    "name": "FULL/male5/scales/vibrato/m5_scales_vibrato_i.wav",
+    "offset": 872394460,
+    "compressed": 643425,
+    "size": 860124,
+    "crc": 1723317700,
+    "method": 8
+  },
+  {
+    "name": "FULL/male5/scales/belt/m5_scales_belt_i.wav",
+    "offset": 873038065,
+    "compressed": 364047,
+    "size": 481308,
+    "crc": 4080323129,
+    "method": 8
+  },
+  {
+    "name": "FULL/male5/scales/belt/m5_scales_belt_o.wav",
+    "offset": 873402217,
+    "compressed": 364307,
+    "size": 463374,
+    "crc": 1213532129,
+    "method": 8
+  },
+  {
+    "name": "FULL/male5/scales/belt/m5_scales_belt_a.wav",
+    "offset": 873766629,
+    "compressed": 399959,
+    "size": 493266,
+    "crc": 1148031035,
+    "method": 8
+  },
+  {
+    "name": "FULL/male5/scales/belt/m5_scales_belt_u.wav",
+    "offset": 874166693,
+    "compressed": 347611,
+    "size": 487288,
+    "crc": 431675383,
+    "method": 8
+  },
+  {
+    "name": "FULL/male5/scales/belt/m5_scales_belt_e.wav",
+    "offset": 874514409,
+    "compressed": 384383,
+    "size": 475330,
+    "crc": 703693805,
+    "method": 8
+  },
+  {
+    "name": "FULL/male5/scales/breathy/m5_scales_breathy_e.wav",
+    "offset": 883198896,
+    "compressed": 433770,
+    "size": 585724,
+    "crc": 3114725671,
+    "method": 8
+  },
+  {
+    "name": "FULL/male5/scales/breathy/m5_scales_breathy_u.wav",
+    "offset": 883632777,
+    "compressed": 443463,
+    "size": 633912,
+    "crc": 809894302,
+    "method": 8
+  },
+  {
+    "name": "FULL/male5/scales/breathy/m5_scales_breathy_a.wav",
+    "offset": 884076351,
+    "compressed": 432323,
+    "size": 619086,
+    "crc": 3398695018,
+    "method": 8
+  },
+  {
+    "name": "FULL/male5/scales/breathy/m5_scales_breathy_o.wav",
+    "offset": 884508785,
+    "compressed": 456788,
+    "size": 622792,
+    "crc": 1187675234,
+    "method": 8
+  },
+  {
+    "name": "FULL/male5/scales/breathy/m5_scales_breathy_i.wav",
+    "offset": 884965684,
+    "compressed": 472015,
+    "size": 659860,
+    "crc": 1413461378,
+    "method": 8
+  },
+  {
+    "name": "FULL/male5/long_tones/straight/m5_long_straight_o.wav",
+    "offset": 912379247,
+    "compressed": 591426,
+    "size": 791896,
+    "crc": 1496556863,
+    "method": 8
+  },
+  {
+    "name": "FULL/male5/long_tones/straight/m5_long_straight_i.wav",
+    "offset": 912970788,
+    "compressed": 527494,
+    "size": 710680,
+    "crc": 3751531884,
+    "method": 8
+  },
+  {
+    "name": "FULL/male5/long_tones/straight/m5_long_straight_e.wav",
+    "offset": 913498397,
+    "compressed": 597394,
+    "size": 818968,
+    "crc": 2033426631,
+    "method": 8
+  },
+  {
+    "name": "FULL/male5/long_tones/straight/m5_long_straight_u.wav",
+    "offset": 914095906,
+    "compressed": 676658,
+    "size": 954328,
+    "crc": 3580818685,
+    "method": 8
+  },
+  {
+    "name": "FULL/male5/long_tones/straight/m5_long_straight_a.wav",
+    "offset": 914772679,
+    "compressed": 632907,
+    "size": 846040,
+    "crc": 1488455631,
+    "method": 8
+  },
+  {
+    "name": "FULL/male10/scales/vibrato/m10_scales_vibrato_u.wav",
+    "offset": 970659278,
+    "compressed": 833014,
+    "size": 1046794,
+    "crc": 3835101855,
+    "method": 8
+  },
+  {
+    "name": "FULL/male10/scales/vibrato/m10_scales_vibrato_a.wav",
+    "offset": 971492405,
+    "compressed": 825749,
+    "size": 986790,
+    "crc": 4258076773,
+    "method": 8
+  },
+  {
+    "name": "FULL/male10/scales/vibrato/m10_scales_vibrato_e.wav",
+    "offset": 972318267,
+    "compressed": 841251,
+    "size": 1013458,
+    "crc": 1932904879,
+    "method": 8
+  },
+  {
+    "name": "FULL/male10/scales/vibrato/m10_scales_vibrato_i.wav",
+    "offset": 973159631,
+    "compressed": 769113,
+    "size": 966788,
+    "crc": 180991617,
+    "method": 8
+  },
+  {
+    "name": "FULL/male10/scales/vibrato/m10_scales_vibrato_o.wav",
+    "offset": 973928857,
+    "compressed": 825095,
+    "size": 986790,
+    "crc": 655055179,
+    "method": 8
+  },
+  {
+    "name": "FULL/male10/scales/belt/m10_scales_belt_e.wav",
+    "offset": 974754646,
+    "compressed": 405600,
+    "size": 497572,
+    "crc": 3709345025,
+    "method": 8
+  },
+  {
+    "name": "FULL/male10/scales/belt/m10_scales_belt_a.wav",
+    "offset": 975160353,
+    "compressed": 382584,
+    "size": 456112,
+    "crc": 3897822339,
+    "method": 8
+  },
+  {
+    "name": "FULL/male10/scales/belt/m10_scales_belt_u.wav",
+    "offset": 975543044,
+    "compressed": 415100,
+    "size": 512648,
+    "crc": 904092108,
+    "method": 8
+  },
+  {
+    "name": "FULL/male10/scales/belt/m10_scales_belt_o.wav",
+    "offset": 975958251,
+    "compressed": 431572,
+    "size": 520188,
+    "crc": 2042981915,
+    "method": 8
+  },
+  {
+    "name": "FULL/male10/scales/belt/m10_scales_belt_i.wav",
+    "offset": 976389930,
+    "compressed": 405495,
+    "size": 523956,
+    "crc": 688507041,
+    "method": 8
+  },
+  {
+    "name": "FULL/male10/scales/breathy/m10_scales_breathy_u.wav",
+    "offset": 986967812,
+    "compressed": 350134,
+    "size": 500232,
+    "crc": 2396848911,
+    "method": 8
+  },
+  {
+    "name": "FULL/male10/scales/breathy/m10_scales_breathy_a.wav",
+    "offset": 987318059,
+    "compressed": 350895,
+    "size": 492416,
+    "crc": 2196944138,
+    "method": 8
+  },
+  {
+    "name": "FULL/male10/scales/breathy/m10_scales_breathy_e.wav",
+    "offset": 987669067,
+    "compressed": 353780,
+    "size": 492416,
+    "crc": 4183877066,
+    "method": 8
+  },
+  {
+    "name": "FULL/male10/scales/breathy/m10_scales_breathy_i.wav",
+    "offset": 988022960,
+    "compressed": 346242,
+    "size": 515862,
+    "crc": 2756461422,
+    "method": 8
+  },
+  {
+    "name": "FULL/male10/scales/breathy/m10_scales_breathy_o.wav",
+    "offset": 988369315,
+    "compressed": 360959,
+    "size": 511956,
+    "crc": 3325351278,
+    "method": 8
+  },
+  {
+    "name": "FULL/male10/long_tones/straight/m10_long_straight_o.wav",
+    "offset": 1005695683,
+    "compressed": 486724,
+    "size": 610944,
+    "crc": 4041928611,
+    "method": 8
+  },
+  {
+    "name": "FULL/male10/long_tones/straight/m10_long_straight_i.wav",
+    "offset": 1006182524,
+    "compressed": 515762,
+    "size": 651670,
+    "crc": 1153902935,
+    "method": 8
+  },
+  {
+    "name": "FULL/male10/long_tones/straight/m10_long_straight_e.wav",
+    "offset": 1006698403,
+    "compressed": 501391,
+    "size": 631306,
+    "crc": 138294558,
+    "method": 8
+  },
+  {
+    "name": "FULL/male10/long_tones/straight/m10_long_straight_u.wav",
+    "offset": 1007199911,
+    "compressed": 465078,
+    "size": 621126,
+    "crc": 1724044258,
+    "method": 8
+  },
+  {
+    "name": "FULL/male10/long_tones/straight/m10_long_straight_a.wav",
+    "offset": 1007665106,
+    "compressed": 588850,
+    "size": 728032,
+    "crc": 1112477429,
+    "method": 8
+  },
+  {
+    "name": "FULL/male11/scales/vibrato/m11_scales_vibrato_a.wav",
+    "offset": 1061986968,
+    "compressed": 753001,
+    "size": 917164,
+    "crc": 2580650427,
+    "method": 8
+  },
+  {
+    "name": "FULL/male11/scales/vibrato/m11_scales_vibrato_u.wav",
+    "offset": 1062740082,
+    "compressed": 675114,
+    "size": 870132,
+    "crc": 2014219477,
+    "method": 8
+  },
+  {
+    "name": "FULL/male11/scales/vibrato/m11_scales_vibrato_e.wav",
+    "offset": 1063415829,
+    "compressed": 737862,
+    "size": 898354,
+    "crc": 2798613812,
+    "method": 8
+  },
+  {
+    "name": "FULL/male11/scales/vibrato/m11_scales_vibrato_i.wav",
+    "offset": 1064153804,
+    "compressed": 700754,
+    "size": 879540,
+    "crc": 122652529,
+    "method": 8
+  },
+  {
+    "name": "FULL/male11/scales/vibrato/m11_scales_vibrato_o.wav",
+    "offset": 1064854671,
+    "compressed": 748518,
+    "size": 898352,
+    "crc": 1344075849,
+    "method": 8
+  },
+  {
+    "name": "FULL/male11/scales/belt/m11_scales_belt_a.wav",
+    "offset": 1065603883,
+    "compressed": 382396,
+    "size": 449852,
+    "crc": 2899143688,
+    "method": 8
+  },
+  {
+    "name": "FULL/male11/scales/belt/m11_scales_belt_u.wav",
+    "offset": 1065986386,
+    "compressed": 385232,
+    "size": 460756,
+    "crc": 871718491,
+    "method": 8
+  },
+  {
+    "name": "FULL/male11/scales/belt/m11_scales_belt_e.wav",
+    "offset": 1066371725,
+    "compressed": 372838,
+    "size": 436220,
+    "crc": 3407369715,
+    "method": 8
+  },
+  {
+    "name": "FULL/male11/scales/belt/m11_scales_belt_i.wav",
+    "offset": 1066744670,
+    "compressed": 358020,
+    "size": 436220,
+    "crc": 4057735234,
+    "method": 8
+  },
+  {
+    "name": "FULL/male11/scales/belt/m11_scales_belt_o.wav",
+    "offset": 1067102797,
+    "compressed": 372639,
+    "size": 433494,
+    "crc": 663743221,
+    "method": 8
+  },
+  {
+    "name": "FULL/male11/scales/breathy/m11_scales_breathy_a.wav",
+    "offset": 1077550782,
+    "compressed": 365169,
+    "size": 479418,
+    "crc": 3089386035,
+    "method": 8
+  },
+  {
+    "name": "FULL/male11/scales/breathy/m11_scales_breathy_u.wav",
+    "offset": 1077916064,
+    "compressed": 343805,
+    "size": 497282,
+    "crc": 3863275027,
+    "method": 8
+  },
+  {
+    "name": "FULL/male11/scales/breathy/m11_scales_breathy_e.wav",
+    "offset": 1078260502,
+    "compressed": 336404,
+    "size": 455598,
+    "crc": 2117262960,
+    "method": 8
+  },
+  {
+    "name": "FULL/male11/scales/breathy/m11_scales_breathy_i.wav",
+    "offset": 1078597019,
+    "compressed": 361349,
+    "size": 503238,
+    "crc": 3967701475,
+    "method": 8
+  },
+  {
+    "name": "FULL/male11/scales/breathy/m11_scales_breathy_o.wav",
+    "offset": 1078958481,
+    "compressed": 357061,
+    "size": 479418,
+    "crc": 2626138778,
+    "method": 8
+  },
+  {
+    "name": "FULL/male11/long_tones/straight/m11_long_straight_o.wav",
+    "offset": 1096617497,
+    "compressed": 493115,
+    "size": 659792,
+    "crc": 1488148170,
+    "method": 8
+  },
+  {
+    "name": "FULL/male11/long_tones/straight/m11_long_straight_i.wav",
+    "offset": 1097110729,
+    "compressed": 526041,
+    "size": 693844,
+    "crc": 3126707059,
+    "method": 8
+  },
+  {
+    "name": "FULL/male11/long_tones/straight/m11_long_straight_e.wav",
+    "offset": 1097636887,
+    "compressed": 544896,
+    "size": 719382,
+    "crc": 2156784555,
+    "method": 8
+  },
+  {
+    "name": "FULL/male11/long_tones/straight/m11_long_straight_u.wav",
+    "offset": 1098181900,
+    "compressed": 481976,
+    "size": 689588,
+    "crc": 2008053099,
+    "method": 8
+  },
+  {
+    "name": "FULL/male11/long_tones/straight/m11_long_straight_a.wav",
+    "offset": 1098663993,
+    "compressed": 523144,
+    "size": 689586,
+    "crc": 2269247046,
+    "method": 8
+  },
+  {
+    "name": "FULL/female3/scales/vibrato/f3_scales_vibrato_e.wav",
+    "offset": 1153930112,
+    "compressed": 936146,
+    "size": 1175726,
+    "crc": 3542965772,
+    "method": 8
+  },
+  {
+    "name": "FULL/female3/scales/vibrato/f3_scales_vibrato_a.wav",
+    "offset": 1154866894,
+    "compressed": 910205,
+    "size": 1169372,
+    "crc": 278607082,
+    "method": 8
+  },
+  {
+    "name": "FULL/female3/scales/vibrato/f3_scales_vibrato_u.wav",
+    "offset": 1155777212,
+    "compressed": 926757,
+    "size": 1194792,
+    "crc": 1711854753,
+    "method": 8
+  },
+  {
+    "name": "FULL/female3/scales/vibrato/f3_scales_vibrato_o.wav",
+    "offset": 1156704082,
+    "compressed": 980789,
+    "size": 1258342,
+    "crc": 2176938562,
+    "method": 8
+  },
+  {
+    "name": "FULL/female3/scales/vibrato/f3_scales_vibrato_i.wav",
+    "offset": 1157684984,
+    "compressed": 968028,
+    "size": 1201146,
+    "crc": 742053165,
+    "method": 8
+  },
+  {
+    "name": "FULL/female3/scales/belt/f3_scales_belt_i.wav",
+    "offset": 1158653710,
+    "compressed": 754200,
+    "size": 958734,
+    "crc": 1237790243,
+    "method": 8
+  },
+  {
+    "name": "FULL/female3/scales/belt/f3_scales_belt_o.wav",
+    "offset": 1159408017,
+    "compressed": 768221,
+    "size": 953580,
+    "crc": 2621187046,
+    "method": 8
+  },
+  {
+    "name": "FULL/female3/scales/belt/f3_scales_belt_a.wav",
+    "offset": 1160176345,
+    "compressed": 757421,
+    "size": 938118,
+    "crc": 3180222894,
+    "method": 8
+  },
+  {
+    "name": "FULL/female3/scales/belt/f3_scales_belt_u.wav",
+    "offset": 1160933873,
+    "compressed": 714346,
+    "size": 948424,
+    "crc": 1130021157,
+    "method": 8
+  },
+  {
+    "name": "FULL/female3/scales/belt/f3_scales_belt_e.wav",
+    "offset": 1161648326,
+    "compressed": 753389,
+    "size": 938118,
+    "crc": 2284601609,
+    "method": 8
+  },
+  {
+    "name": "FULL/female3/scales/breathy/f3_scales_breathy_e.wav",
+    "offset": 1174916425,
+    "compressed": 760763,
+    "size": 988212,
+    "crc": 3847101088,
+    "method": 8
+  },
+  {
+    "name": "FULL/female3/scales/breathy/f3_scales_breathy_a.wav",
+    "offset": 1175677301,
+    "compressed": 794805,
+    "size": 1030714,
+    "crc": 2251147328,
+    "method": 8
+  },
+  {
+    "name": "FULL/female3/scales/breathy/f3_scales_breathy_u.wav",
+    "offset": 1176472742,
+    "compressed": 677450,
+    "size": 924460,
+    "crc": 3134588427,
+    "method": 8
+  },
+  {
+    "name": "FULL/female3/scales/breathy/f3_scales_breathy_o.wav",
+    "offset": 1177150305,
+    "compressed": 677437,
+    "size": 903208,
+    "crc": 36938030,
+    "method": 8
+  },
+  {
+    "name": "FULL/female3/scales/breathy/f3_scales_breathy_i.wav",
+    "offset": 1177827855,
+    "compressed": 703300,
+    "size": 929772,
+    "crc": 379385748,
+    "method": 8
+  },
+  {
+    "name": "FULL/female3/long_tones/straight/f3_long_straight_i.wav",
+    "offset": 1200355953,
+    "compressed": 726126,
+    "size": 942854,
+    "crc": 2938876842,
+    "method": 8
+  },
+  {
+    "name": "FULL/female3/long_tones/straight/f3_long_straight_o.wav",
+    "offset": 1201082196,
+    "compressed": 722467,
+    "size": 959394,
+    "crc": 810492957,
+    "method": 8
+  },
+  {
+    "name": "FULL/female3/long_tones/straight/f3_long_straight_a.wav",
+    "offset": 1201804780,
+    "compressed": 740161,
+    "size": 981448,
+    "crc": 3708514010,
+    "method": 8
+  },
+  {
+    "name": "FULL/female3/long_tones/straight/f3_long_straight_u.wav",
+    "offset": 1202545058,
+    "compressed": 650248,
+    "size": 876690,
+    "crc": 689634768,
+    "method": 8
+  },
+  {
+    "name": "FULL/female3/long_tones/straight/f3_long_straight_e.wav",
+    "offset": 1203195423,
+    "compressed": 727971,
+    "size": 931826,
+    "crc": 2185458394,
+    "method": 8
+  },
+  {
+    "name": "FULL/female4/scales/vibrato/f4_scales_vibrato_i.wav",
+    "offset": 1261754214,
+    "compressed": 422828,
+    "size": 571774,
+    "crc": 3492146213,
+    "method": 8
+  },
+  {
+    "name": "FULL/female4/scales/vibrato/f4_scales_vibrato_o.wav",
+    "offset": 1262177155,
+    "compressed": 422845,
+    "size": 587956,
+    "crc": 4069425422,
+    "method": 8
+  },
+  {
+    "name": "FULL/female4/scales/vibrato/f4_scales_vibrato_a.wav",
+    "offset": 1262600113,
+    "compressed": 455002,
+    "size": 609530,
+    "crc": 220199959,
+    "method": 8
+  },
+  {
+    "name": "FULL/female4/scales/vibrato/f4_scales_vibrato_u.wav",
+    "offset": 1263055228,
+    "compressed": 420122,
+    "size": 593348,
+    "crc": 4056776261,
+    "method": 8
+  },
+  {
+    "name": "FULL/female4/scales/vibrato/f4_scales_vibrato_e.wav",
+    "offset": 1263475463,
+    "compressed": 437875,
+    "size": 598744,
+    "crc": 2557316516,
+    "method": 8
+  },
+  {
+    "name": "FULL/female4/scales/belt/f4_scales_belt_i.wav",
+    "offset": 1263913522,
+    "compressed": 449921,
+    "size": 571528,
+    "crc": 1908234165,
+    "method": 8
+  },
+  {
+    "name": "FULL/female4/scales/belt/f4_scales_belt_o.wav",
+    "offset": 1264364064,
+    "compressed": 477079,
+    "size": 584136,
+    "crc": 230590907,
+    "method": 8
+  },
+  {
+    "name": "FULL/female4/scales/belt/f4_scales_belt_u.wav",
+    "offset": 1264841250,
+    "compressed": 449831,
+    "size": 596740,
+    "crc": 2638079756,
+    "method": 8
+  },
+  {
+    "name": "FULL/female4/scales/belt/f4_scales_belt_a.wav",
+    "offset": 1265291188,
+    "compressed": 460881,
+    "size": 571528,
+    "crc": 1798027081,
+    "method": 8
+  },
+  {
+    "name": "FULL/female4/scales/belt/f4_scales_belt_e.wav",
+    "offset": 1265752176,
+    "compressed": 460290,
+    "size": 579932,
+    "crc": 2286060110,
+    "method": 8
+  },
+  {
+    "name": "FULL/female4/scales/breathy/f4_scales_breathy_i.wav",
+    "offset": 1271854715,
+    "compressed": 486927,
+    "size": 902400,
+    "crc": 1797071182,
+    "method": 8
+  },
+  {
+    "name": "FULL/female4/scales/breathy/f4_scales_breathy_o.wav",
+    "offset": 1272341755,
+    "compressed": 451499,
+    "size": 864802,
+    "crc": 3046308424,
+    "method": 8
+  },
+  {
+    "name": "FULL/female4/scales/breathy/f4_scales_breathy_a.wav",
+    "offset": 1272793367,
+    "compressed": 547610,
+    "size": 1045272,
+    "crc": 1268961131,
+    "method": 8
+  },
+  {
+    "name": "FULL/female4/scales/breathy/f4_scales_breathy_u.wav",
+    "offset": 1273341090,
+    "compressed": 432976,
+    "size": 834722,
+    "crc": 1724678519,
+    "method": 8
+  },
+  {
+    "name": "FULL/female4/scales/breathy/f4_scales_breathy_e.wav",
+    "offset": 1273774179,
+    "compressed": 501829,
+    "size": 962558,
+    "crc": 3458318196,
+    "method": 8
+  },
+  {
+    "name": "FULL/female4/long_tones/straight/f4_long_straight_o.wav",
+    "offset": 1285598175,
+    "compressed": 687108,
+    "size": 983662,
+    "crc": 3658920709,
+    "method": 8
+  },
+  {
+    "name": "FULL/female4/long_tones/straight/f4_long_straight_i.wav",
+    "offset": 1286285400,
+    "compressed": 700391,
+    "size": 1042096,
+    "crc": 3753471564,
+    "method": 8
+  },
+  {
+    "name": "FULL/female4/long_tones/straight/f4_long_straight_e.wav",
+    "offset": 1286985908,
+    "compressed": 667572,
+    "size": 1061574,
+    "crc": 1892536833,
+    "method": 8
+  },
+  {
+    "name": "FULL/female4/long_tones/straight/f4_long_straight_u.wav",
+    "offset": 1287653597,
+    "compressed": 701466,
+    "size": 1061574,
+    "crc": 973702522,
+    "method": 8
+  },
+  {
+    "name": "FULL/female4/long_tones/straight/f4_long_straight_a.wav",
+    "offset": 1288355180,
+    "compressed": 638514,
+    "size": 983664,
+    "crc": 1683157917,
+    "method": 8
+  },
+  {
+    "name": "FULL/female5/scales/vibrato/f5_scales_vibrato_i.wav",
+    "offset": 1337354963,
+    "compressed": 717975,
+    "size": 897410,
+    "crc": 2144646457,
+    "method": 8
+  },
+  {
+    "name": "FULL/female5/scales/vibrato/f5_scales_vibrato_o.wav",
+    "offset": 1338073051,
+    "compressed": 716413,
+    "size": 897410,
+    "crc": 2767209300,
+    "method": 8
+  },
+  {
+    "name": "FULL/female5/scales/vibrato/f5_scales_vibrato_u.wav",
+    "offset": 1338789577,
+    "compressed": 716928,
+    "size": 897410,
+    "crc": 1942416309,
+    "method": 8
+  },
+  {
+    "name": "FULL/female5/scales/vibrato/f5_scales_vibrato_a.wav",
+    "offset": 1339506618,
+    "compressed": 730749,
+    "size": 897410,
+    "crc": 864113697,
+    "method": 8
+  },
+  {
+    "name": "FULL/female5/scales/vibrato/f5_scales_vibrato_e.wav",
+    "offset": 1340237480,
+    "compressed": 690473,
+    "size": 842788,
+    "crc": 552701313,
+    "method": 8
+  },
+  {
+    "name": "FULL/female5/scales/belt/f5_scales_belt_o.wav",
+    "offset": 1340928137,
+    "compressed": 724376,
+    "size": 861680,
+    "crc": 1469954633,
+    "method": 8
+  },
+  {
+    "name": "FULL/female5/scales/belt/f5_scales_belt_i.wav",
+    "offset": 1341652620,
+    "compressed": 733057,
+    "size": 887272,
+    "crc": 3514453846,
+    "method": 8
+  },
+  {
+    "name": "FULL/female5/scales/belt/f5_scales_belt_e.wav",
+    "offset": 1342385784,
+    "compressed": 711633,
+    "size": 870210,
+    "crc": 3198275231,
+    "method": 8
+  },
+  {
+    "name": "FULL/female5/scales/belt/f5_scales_belt_u.wav",
+    "offset": 1343097524,
+    "compressed": 621769,
+    "size": 767838,
+    "crc": 1502330215,
+    "method": 8
+  },
+  {
+    "name": "FULL/female5/scales/belt/f5_scales_belt_a.wav",
+    "offset": 1343719400,
+    "compressed": 726863,
+    "size": 870210,
+    "crc": 608024919,
+    "method": 8
+  },
+  {
+    "name": "FULL/female5/scales/breathy/f5_scales_breathy_i.wav",
+    "offset": 1353958348,
+    "compressed": 560608,
+    "size": 884360,
+    "crc": 106446011,
+    "method": 8
+  },
+  {
+    "name": "FULL/female5/scales/breathy/f5_scales_breathy_o.wav",
+    "offset": 1354519069,
+    "compressed": 544692,
+    "size": 884362,
+    "crc": 1986485440,
+    "method": 8
+  },
+  {
+    "name": "FULL/female5/scales/breathy/f5_scales_breathy_u.wav",
+    "offset": 1355063874,
+    "compressed": 540028,
+    "size": 876322,
+    "crc": 3206816725,
+    "method": 8
+  },
+  {
+    "name": "FULL/female5/scales/breathy/f5_scales_breathy_a.wav",
+    "offset": 1355604015,
+    "compressed": 695850,
+    "size": 1117498,
+    "crc": 941340788,
+    "method": 8
+  },
+  {
+    "name": "FULL/female5/scales/breathy/f5_scales_breathy_e.wav",
+    "offset": 1356299978,
+    "compressed": 553686,
+    "size": 852204,
+    "crc": 2262786410,
+    "method": 8
+  },
+  {
+    "name": "FULL/female5/long_tones/straight/f5_long_straight_o.wav",
+    "offset": 1382149239,
+    "compressed": 893670,
+    "size": 1468380,
+    "crc": 4126858035,
+    "method": 8
+  },
+  {
+    "name": "FULL/female5/long_tones/straight/f5_long_straight_i.wav",
+    "offset": 1383043026,
+    "compressed": 886543,
+    "size": 1402388,
+    "crc": 1740856657,
+    "method": 8
+  },
+  {
+    "name": "FULL/female5/long_tones/straight/f5_long_straight_e.wav",
+    "offset": 1383929686,
+    "compressed": 832428,
+    "size": 1385890,
+    "crc": 2616448629,
+    "method": 8
+  },
+  {
+    "name": "FULL/female5/long_tones/straight/f5_long_straight_u.wav",
+    "offset": 1384762231,
+    "compressed": 814161,
+    "size": 1361142,
+    "crc": 177822755,
+    "method": 8
+  },
+  {
+    "name": "FULL/female5/long_tones/straight/f5_long_straight_a.wav",
+    "offset": 1385576509,
+    "compressed": 736117,
+    "size": 1130168,
+    "crc": 466018991,
+    "method": 8
+  },
+  {
+    "name": "FULL/female2/scales/vibrato/f2_scales_vibrato_e.wav",
+    "offset": 1452301720,
+    "compressed": 804401,
+    "size": 998370,
+    "crc": 1443100475,
+    "method": 8
+  },
+  {
+    "name": "FULL/female2/scales/vibrato/f2_scales_vibrato_u.wav",
+    "offset": 1453106234,
+    "compressed": 888561,
+    "size": 1110124,
+    "crc": 3309623371,
+    "method": 8
+  },
+  {
+    "name": "FULL/female2/scales/vibrato/f2_scales_vibrato_a.wav",
+    "offset": 1453994908,
+    "compressed": 793393,
+    "size": 961118,
+    "crc": 3848959354,
+    "method": 8
+  },
+  {
+    "name": "FULL/female2/scales/vibrato/f2_scales_vibrato_o.wav",
+    "offset": 1454788414,
+    "compressed": 861041,
+    "size": 1057972,
+    "crc": 2340008786,
+    "method": 8
+  },
+  {
+    "name": "FULL/female2/scales/vibrato/f2_scales_vibrato_a(1).wav",
+    "offset": 1455649568,
+    "compressed": 793393,
+    "size": 961118,
+    "crc": 3848959354,
+    "method": 8
+  },
+  {
+    "name": "FULL/female2/scales/vibrato/f2_scales_vibrato_i.wav",
+    "offset": 1456443077,
+    "compressed": 853831,
+    "size": 1043072,
+    "crc": 1305316992,
+    "method": 8
+  },
+  {
+    "name": "FULL/female2/scales/belt/f2_scales_belt_o.wav",
+    "offset": 1457297606,
+    "compressed": 552036,
+    "size": 661720,
+    "crc": 778204170,
+    "method": 8
+  },
+  {
+    "name": "FULL/female2/scales/belt/f2_scales_belt_i.wav",
+    "offset": 1457849749,
+    "compressed": 543426,
+    "size": 635252,
+    "crc": 3985747126,
+    "method": 8
+  },
+  {
+    "name": "FULL/female2/scales/belt/f2_scales_belt_e.wav",
+    "offset": 1458393282,
+    "compressed": 572828,
+    "size": 656426,
+    "crc": 2066561596,
+    "method": 8
+  },
+  {
+    "name": "FULL/female2/scales/belt/f2_scales_belt_a.wav",
+    "offset": 1458966217,
+    "compressed": 588075,
+    "size": 682894,
+    "crc": 2167744592,
+    "method": 8
+  },
+  {
+    "name": "FULL/female2/scales/belt/f2_scales_belt_u.wav",
+    "offset": 1459554399,
+    "compressed": 532869,
+    "size": 651134,
+    "crc": 2637526836,
+    "method": 8
+  },
+  {
+    "name": "FULL/female2/scales/breathy/f2_scales_breathy_e.wav",
+    "offset": 1473865685,
+    "compressed": 530448,
+    "size": 762882,
+    "crc": 3294419645,
+    "method": 8
+  },
+  {
+    "name": "FULL/female2/scales/breathy/f2_scales_breathy_u.wav",
+    "offset": 1474396246,
+    "compressed": 482534,
+    "size": 689424,
+    "crc": 1479005562,
+    "method": 8
+  },
+  {
+    "name": "FULL/female2/scales/breathy/f2_scales_breathy_a.wav",
+    "offset": 1474878893,
+    "compressed": 499152,
+    "size": 706376,
+    "crc": 3044640624,
+    "method": 8
+  },
+  {
+    "name": "FULL/female2/scales/breathy/f2_scales_breathy_o.wav",
+    "offset": 1475378158,
+    "compressed": 469516,
+    "size": 678122,
+    "crc": 1511700531,
+    "method": 8
+  },
+  {
+    "name": "FULL/female2/scales/breathy/f2_scales_breathy_i.wav",
+    "offset": 1475847787,
+    "compressed": 514477,
+    "size": 717678,
+    "crc": 506097679,
+    "method": 8
+  },
+  {
+    "name": "FULL/female2/long_tones/straight/f2_long_straight_i.wav",
+    "offset": 1497137601,
+    "compressed": 751735,
+    "size": 952608,
+    "crc": 2133538849,
+    "method": 8
+  },
+  {
+    "name": "FULL/female2/long_tones/straight/f2_long_straight_o.wav",
+    "offset": 1497889453,
+    "compressed": 781339,
+    "size": 974760,
+    "crc": 1825964176,
+    "method": 8
+  },
+  {
+    "name": "FULL/female2/long_tones/straight/f2_long_straight_a.wav",
+    "offset": 1498670909,
+    "compressed": 833095,
+    "size": 1055986,
+    "crc": 3159864352,
+    "method": 8
+  },
+  {
+    "name": "FULL/female2/long_tones/straight/f2_long_straight_u.wav",
+    "offset": 1499504121,
+    "compressed": 586256,
+    "size": 782770,
+    "crc": 48173283,
+    "method": 8
+  },
+  {
+    "name": "FULL/female2/long_tones/straight/f2_long_straight_e.wav",
+    "offset": 1500090494,
+    "compressed": 756664,
+    "size": 930454,
+    "crc": 2229360455,
+    "method": 8
+  },
+  {
+    "name": "FULL/male7/scales/vibrato/m7_scales_vibrato_i.wav",
+    "offset": 1566416230,
+    "compressed": 840675,
+    "size": 1032262,
+    "crc": 2567024030,
+    "method": 8
+  },
+  {
+    "name": "FULL/male7/scales/vibrato/m7_scales_vibrato_o.wav",
+    "offset": 1567257016,
+    "compressed": 967733,
+    "size": 1122454,
+    "crc": 335967644,
+    "method": 8
+  },
+  {
+    "name": "FULL/male7/scales/vibrato/m7_scales_vibrato_u.wav",
+    "offset": 1568224860,
+    "compressed": 931347,
+    "size": 1107422,
+    "crc": 3896776723,
+    "method": 8
+  },
+  {
+    "name": "FULL/male7/scales/vibrato/m7_scales_vibrato_a.wav",
+    "offset": 1569156318,
+    "compressed": 742983,
+    "size": 856884,
+    "crc": 4091763147,
+    "method": 8
+  },
+  {
+    "name": "FULL/male7/scales/vibrato/m7_scales_vibrato_e.wav",
+    "offset": 1569899412,
+    "compressed": 821560,
+    "size": 962110,
+    "crc": 3187874304,
+    "method": 8
+  },
+  {
+    "name": "FULL/male7/scales/belt/m7_scales_belt_i.wav",
+    "offset": 1570721152,
+    "compressed": 662091,
+    "size": 799464,
+    "crc": 1546006337,
+    "method": 8
+  },
+  {
+    "name": "FULL/male7/scales/belt/m7_scales_belt_o.wav",
+    "offset": 1571383348,
+    "compressed": 727561,
+    "size": 852758,
+    "crc": 1250471865,
+    "method": 8
+  },
+  {
+    "name": "FULL/male7/scales/belt/m7_scales_belt_a.wav",
+    "offset": 1572111014,
+    "compressed": 558223,
+    "size": 631382,
+    "crc": 2220482814,
+    "method": 8
+  },
+  {
+    "name": "FULL/male7/scales/belt/m7_scales_belt_u.wav",
+    "offset": 1572669342,
+    "compressed": 730934,
+    "size": 881456,
+    "crc": 428547820,
+    "method": 8
+  },
+  {
+    "name": "FULL/male7/scales/belt/m7_scales_belt_e.wav",
+    "offset": 1573400381,
+    "compressed": 613777,
+    "size": 725672,
+    "crc": 3895981634,
+    "method": 8
+  },
+  {
+    "name": "FULL/male7/scales/breathy/m7_scales_breathy_i.wav",
+    "offset": 1585342787,
+    "compressed": 647481,
+    "size": 896574,
+    "crc": 4208823167,
+    "method": 8
+  },
+  {
+    "name": "FULL/male7/scales/breathy/m7_scales_breathy_o.wav",
+    "offset": 1585990379,
+    "compressed": 665185,
+    "size": 912490,
+    "crc": 3752274440,
+    "method": 8
+  },
+  {
+    "name": "FULL/male7/scales/breathy/m7_scales_breathy_u.wav",
+    "offset": 1586655675,
+    "compressed": 667981,
+    "size": 939016,
+    "crc": 2019343602,
+    "method": 8
+  },
+  {
+    "name": "FULL/male7/scales/breathy/m7_scales_breathy_a.wav",
+    "offset": 1587323767,
+    "compressed": 801657,
+    "size": 1029198,
+    "crc": 2025039317,
+    "method": 8
+  },
+  {
+    "name": "FULL/male7/scales/breathy/m7_scales_breathy_e.wav",
+    "offset": 1588125535,
+    "compressed": 585994,
+    "size": 785174,
+    "crc": 961486894,
+    "method": 8
+  },
+  {
+    "name": "FULL/male7/long_tones/straight/m7_long_straight_o.wav",
+    "offset": 1606032685,
+    "compressed": 762060,
+    "size": 916278,
+    "crc": 515238758,
+    "method": 8
+  },
+  {
+    "name": "FULL/male7/long_tones/straight/m7_long_straight_i.wav",
+    "offset": 1606794860,
+    "compressed": 755280,
+    "size": 941872,
+    "crc": 906679550,
+    "method": 8
+  },
+  {
+    "name": "FULL/male7/long_tones/straight/m7_long_straight_e.wav",
+    "offset": 1607550255,
+    "compressed": 761002,
+    "size": 890686,
+    "crc": 4105052849,
+    "method": 8
+  },
+  {
+    "name": "FULL/male7/long_tones/straight/m7_long_straight_a.wav",
+    "offset": 1608311372,
+    "compressed": 559740,
+    "size": 639874,
+    "crc": 1994465997,
+    "method": 8
+  },
+  {
+    "name": "FULL/male7/long_tones/straight/m7_long_straight_u.wav",
+    "offset": 1608871227,
+    "compressed": 665499,
+    "size": 880448,
+    "crc": 1296824450,
+    "method": 8
+  },
+  {
+    "name": "FULL/male9/scales/vibrato/m9_scales_vibrato_i.wav",
+    "offset": 1672439508,
+    "compressed": 794591,
+    "size": 985346,
+    "crc": 1511712477,
+    "method": 8
+  },
+  {
+    "name": "FULL/male9/scales/vibrato/m9_scales_vibrato_o.wav",
+    "offset": 1673234210,
+    "compressed": 799020,
+    "size": 990272,
+    "crc": 3811613653,
+    "method": 8
+  },
+  {
+    "name": "FULL/male9/scales/vibrato/m9_scales_vibrato_u.wav",
+    "offset": 1674033341,
+    "compressed": 793096,
+    "size": 1029684,
+    "crc": 3048100798,
+    "method": 8
+  },
+  {
+    "name": "FULL/male9/scales/vibrato/m9_scales_vibrato_a.wav",
+    "offset": 1674826548,
+    "compressed": 915519,
+    "size": 1093730,
+    "crc": 829831834,
+    "method": 8
+  },
+  {
+    "name": "FULL/male9/scales/vibrato/m9_scales_vibrato_e.wav",
+    "offset": 1675742178,
+    "compressed": 755271,
+    "size": 960714,
+    "crc": 3852594706,
+    "method": 8
+  },
+  {
+    "name": "FULL/male9/scales/belt/m9_scales_belt_e.wav",
+    "offset": 1676497629,
+    "compressed": 772818,
+    "size": 941936,
+    "crc": 1285223049,
+    "method": 8
+  },
+  {
+    "name": "FULL/male9/scales/belt/m9_scales_belt_a.wav",
+    "offset": 1677270552,
+    "compressed": 826608,
+    "size": 964798,
+    "crc": 1484290744,
+    "method": 8
+  },
+  {
+    "name": "FULL/male9/scales/belt/m9_scales_belt_u.wav",
+    "offset": 1678097265,
+    "compressed": 754778,
+    "size": 969370,
+    "crc": 2617350058,
+    "method": 8
+  },
+  {
+    "name": "FULL/male9/scales/belt/m9_scales_belt_o.wav",
+    "offset": 1678852148,
+    "compressed": 800852,
+    "size": 973942,
+    "crc": 3674876495,
+    "method": 8
+  },
+  {
+    "name": "FULL/male9/scales/belt/m9_scales_belt_i.wav",
+    "offset": 1679653105,
+    "compressed": 720450,
+    "size": 941936,
+    "crc": 859482539,
+    "method": 8
+  },
+  {
+    "name": "FULL/male9/scales/breathy/m9_scales_breathy_i.wav",
+    "offset": 1691864466,
+    "compressed": 678214,
+    "size": 925390,
+    "crc": 1569016041,
+    "method": 8
+  },
+  {
+    "name": "FULL/male9/scales/breathy/m9_scales_breathy_o.wav",
+    "offset": 1692542791,
+    "compressed": 701303,
+    "size": 948876,
+    "crc": 3692605735,
+    "method": 8
+  },
+  {
+    "name": "FULL/male9/scales/breathy/m9_scales_breathy_u.wav",
+    "offset": 1693244205,
+    "compressed": 670974,
+    "size": 930088,
+    "crc": 2107916523,
+    "method": 8
+  },
+  {
+    "name": "FULL/male9/scales/breathy/m9_scales_breathy_a.wav",
+    "offset": 1693915290,
+    "compressed": 759758,
+    "size": 991150,
+    "crc": 998174252,
+    "method": 8
+  },
+  {
+    "name": "FULL/male9/scales/breathy/m9_scales_breathy_e.wav",
+    "offset": 1694675159,
+    "compressed": 669420,
+    "size": 953574,
+    "crc": 2890507109,
+    "method": 8
+  },
+  {
+    "name": "FULL/male9/long_tones/straight/m9_long_straight_i.wav",
+    "offset": 1712933330,
+    "compressed": 508186,
+    "size": 684376,
+    "crc": 3930527890,
+    "method": 8
+  },
+  {
+    "name": "FULL/male9/long_tones/straight/m9_long_straight_o.wav",
+    "offset": 1713441631,
+    "compressed": 584979,
+    "size": 732464,
+    "crc": 1156531532,
+    "method": 8
+  },
+  {
+    "name": "FULL/male9/long_tones/straight/m9_long_straight_a.wav",
+    "offset": 1714026725,
+    "compressed": 627078,
+    "size": 717668,
+    "crc": 3368970572,
+    "method": 8
+  },
+  {
+    "name": "FULL/male9/long_tones/straight/m9_long_straight_u.wav",
+    "offset": 1714653918,
+    "compressed": 546895,
+    "size": 736162,
+    "crc": 325302768,
+    "method": 8
+  },
+  {
+    "name": "FULL/male9/long_tones/straight/m9_long_straight_e.wav",
+    "offset": 1715200928,
+    "compressed": 527343,
+    "size": 699172,
+    "crc": 1931789120,
+    "method": 8
+  },
+  {
+    "name": "FULL/male8/scales/vibrato/m8_scales_vibrato_i.wav",
+    "offset": 1774282745,
+    "compressed": 633622,
+    "size": 788578,
+    "crc": 2380849202,
+    "method": 8
+  },
+  {
+    "name": "FULL/male8/scales/vibrato/m8_scales_vibrato_o.wav",
+    "offset": 1774916478,
+    "compressed": 678902,
+    "size": 821780,
+    "crc": 3919850219,
+    "method": 8
+  },
+  {
+    "name": "FULL/male8/scales/vibrato/m8_scales_vibrato_a.wav",
+    "offset": 1775595491,
+    "compressed": 697288,
+    "size": 830080,
+    "crc": 1278592960,
+    "method": 8
+  },
+  {
+    "name": "FULL/male8/scales/vibrato/m8_scales_vibrato_u.wav",
+    "offset": 1776292890,
+    "compressed": 691202,
+    "size": 850830,
+    "crc": 402901002,
+    "method": 8
+  },
+  {
+    "name": "FULL/male8/scales/vibrato/m8_scales_vibrato_e.wav",
+    "offset": 1776984203,
+    "compressed": 624918,
+    "size": 751226,
+    "crc": 4294683878,
+    "method": 8
+  },
+  {
+    "name": "FULL/male8/scales/belt/m8_scales_belt_a.wav",
+    "offset": 1777609301,
+    "compressed": 591352,
+    "size": 711758,
+    "crc": 3584516345,
+    "method": 8
+  },
+  {
+    "name": "FULL/male8/scales/belt/m8_scales_belt_u.wav",
+    "offset": 1778200758,
+    "compressed": 561374,
+    "size": 693602,
+    "crc": 382189600,
+    "method": 8
+  },
+  {
+    "name": "FULL/male8/scales/belt/m8_scales_belt_e.wav",
+    "offset": 1778762237,
+    "compressed": 530038,
+    "size": 635504,
+    "crc": 2208934276,
+    "method": 8
+  },
+  {
+    "name": "FULL/male8/scales/belt/m8_scales_belt_i.wav",
+    "offset": 1779292380,
+    "compressed": 526630,
+    "size": 642764,
+    "crc": 1264402612,
+    "method": 8
+  },
+  {
+    "name": "FULL/male8/scales/belt/m8_scales_belt_o.wav",
+    "offset": 1779819115,
+    "compressed": 552600,
+    "size": 668184,
+    "crc": 1832867879,
+    "method": 8
+  },
+  {
+    "name": "FULL/male8/scales/breathy/m8_scales_breathy_i.wav",
+    "offset": 1788621243,
+    "compressed": 577072,
+    "size": 800274,
+    "crc": 312848826,
+    "method": 8
+  },
+  {
+    "name": "FULL/male8/scales/breathy/m8_scales_breathy_o.wav",
+    "offset": 1789198426,
+    "compressed": 605139,
+    "size": 804444,
+    "crc": 3118522242,
+    "method": 8
+  },
+  {
+    "name": "FULL/male8/scales/breathy/m8_scales_breathy_a.wav",
+    "offset": 1789803676,
+    "compressed": 603374,
+    "size": 804442,
+    "crc": 3166124584,
+    "method": 8
+  },
+  {
+    "name": "FULL/male8/scales/breathy/m8_scales_breathy_u.wav",
+    "offset": 1790407161,
+    "compressed": 582732,
+    "size": 821116,
+    "crc": 41871071,
+    "method": 8
+  },
+  {
+    "name": "FULL/male8/scales/breathy/m8_scales_breathy_e.wav",
+    "offset": 1790990004,
+    "compressed": 587964,
+    "size": 816946,
+    "crc": 20347002,
+    "method": 8
+  },
+  {
+    "name": "FULL/male8/long_tones/straight/m8_long_straight_i.wav",
+    "offset": 1810125323,
+    "compressed": 602146,
+    "size": 804608,
+    "crc": 230747420,
+    "method": 8
+  },
+  {
+    "name": "FULL/male8/long_tones/straight/m8_long_straight_o.wav",
+    "offset": 1810727584,
+    "compressed": 608532,
+    "size": 817798,
+    "crc": 1312840467,
+    "method": 8
+  },
+  {
+    "name": "FULL/male8/long_tones/straight/m8_long_straight_a.wav",
+    "offset": 1811336231,
+    "compressed": 704068,
+    "size": 918918,
+    "crc": 3310435083,
+    "method": 8
+  },
+  {
+    "name": "FULL/male8/long_tones/straight/m8_long_straight_u.wav",
+    "offset": 1812040414,
+    "compressed": 595084,
+    "size": 795816,
+    "crc": 3328536437,
+    "method": 8
+  },
+  {
+    "name": "FULL/male8/long_tones/straight/m8_long_straight_e.wav",
+    "offset": 1812635613,
+    "compressed": 686042,
+    "size": 883746,
+    "crc": 501800292,
+    "method": 8
+  },
+  {
+    "name": "FULL/male6/scales/vibrato/m6_scales_vibrato_i.wav",
+    "offset": 1873038896,
+    "compressed": 1191796,
+    "size": 1545258,
+    "crc": 3698504950,
+    "method": 8
+  },
+  {
+    "name": "FULL/male6/scales/vibrato/m6_scales_vibrato_o.wav",
+    "offset": 1874230803,
+    "compressed": 1314984,
+    "size": 1600444,
+    "crc": 32620023,
+    "method": 8
+  },
+  {
+    "name": "FULL/male6/scales/vibrato/m6_scales_vibrato_a.wav",
+    "offset": 1875545898,
+    "compressed": 1075937,
+    "size": 1317614,
+    "crc": 2796514619,
+    "method": 8
+  },
+  {
+    "name": "FULL/male6/scales/vibrato/m6_scales_vibrato_u.wav",
+    "offset": 1876621946,
+    "compressed": 1198227,
+    "size": 1641834,
+    "crc": 3876424855,
+    "method": 8
+  },
+  {
+    "name": "FULL/male6/scales/vibrato/m6_scales_vibrato_e.wav",
+    "offset": 1877820284,
+    "compressed": 1224573,
+    "size": 1469378,
+    "crc": 1963395454,
+    "method": 8
+  },
+  {
+    "name": "FULL/male6/scales/belt/m6_scales_belt_o.wav",
+    "offset": 1879045037,
+    "compressed": 988615,
+    "size": 1180476,
+    "crc": 1092592720,
+    "method": 8
+  },
+  {
+    "name": "FULL/male6/scales/belt/m6_scales_belt_i.wav",
+    "offset": 1880033757,
+    "compressed": 941747,
+    "size": 1164306,
+    "crc": 168050394,
+    "method": 8
+  },
+  {
+    "name": "FULL/male6/scales/belt/m6_scales_belt_e.wav",
+    "offset": 1880975609,
+    "compressed": 944498,
+    "size": 1121186,
+    "crc": 3492291623,
+    "method": 8
+  },
+  {
+    "name": "FULL/male6/scales/belt/m6_scales_belt_a.wav",
+    "offset": 1881920212,
+    "compressed": 900205,
+    "size": 1040332,
+    "crc": 2563716221,
+    "method": 8
+  },
+  {
+    "name": "FULL/male6/scales/belt/m6_scales_belt_u.wav",
+    "offset": 1882820522,
+    "compressed": 968783,
+    "size": 1212816,
+    "crc": 2678392549,
+    "method": 8
+  },
+  {
+    "name": "FULL/male6/scales/breathy/m6_scales_breathy_i.wav",
+    "offset": 1898127020,
+    "compressed": 638475,
+    "size": 924152,
+    "crc": 342868836,
+    "method": 8
+  },
+  {
+    "name": "FULL/male6/scales/breathy/m6_scales_breathy_o.wav",
+    "offset": 1898765606,
+    "compressed": 601892,
+    "size": 859174,
+    "crc": 1146131888,
+    "method": 8
+  },
+  {
+    "name": "FULL/male6/scales/breathy/m6_scales_breathy_a.wav",
+    "offset": 1899367609,
+    "compressed": 728525,
+    "size": 1061322,
+    "crc": 3044429234,
+    "method": 8
+  },
+  {
+    "name": "FULL/male6/scales/breathy/m6_scales_breathy_u.wav",
+    "offset": 1900096245,
+    "compressed": 561003,
+    "size": 837516,
+    "crc": 576824353,
+    "method": 8
+  },
+  {
+    "name": "FULL/male6/scales/breathy/m6_scales_breathy_e.wav",
+    "offset": 1900657359,
+    "compressed": 711154,
+    "size": 1032444,
+    "crc": 1260883205,
+    "method": 8
+  },
+  {
+    "name": "FULL/male6/long_tones/straight/m6_long_straight_o.wav",
+    "offset": 1923399529,
+    "compressed": 779795,
+    "size": 1077886,
+    "crc": 2332295680,
+    "method": 8
+  },
+  {
+    "name": "FULL/male6/long_tones/straight/m6_long_straight_i.wav",
+    "offset": 1924179439,
+    "compressed": 830193,
+    "size": 1158580,
+    "crc": 3070075476,
+    "method": 8
+  },
+  {
+    "name": "FULL/male6/long_tones/straight/m6_long_straight_e.wav",
+    "offset": 1925009747,
+    "compressed": 866124,
+    "size": 1164344,
+    "crc": 1040312402,
+    "method": 8
+  },
+  {
+    "name": "FULL/male6/long_tones/straight/m6_long_straight_a.wav",
+    "offset": 1925875986,
+    "compressed": 910554,
+    "size": 1227746,
+    "crc": 913815671,
+    "method": 8
+  },
+  {
+    "name": "FULL/male6/long_tones/straight/m6_long_straight_u.wav",
+    "offset": 1926786655,
+    "compressed": 762250,
+    "size": 1100942,
+    "crc": 1583363132,
+    "method": 8
+  },
+  {
+    "name": "FULL/male1/scales/vibrato/m1_scales_vibrato_e.wav",
+    "offset": 1984117212,
+    "compressed": 1018040,
+    "size": 1310836,
+    "crc": 1240774193,
+    "method": 8
+  },
+  {
+    "name": "FULL/male1/scales/vibrato/m1_scales_vibrato_a.wav",
+    "offset": 1985135880,
+    "compressed": 1155308,
+    "size": 1435218,
+    "crc": 3512170780,
+    "method": 8
+  },
+  {
+    "name": "FULL/male1/scales/vibrato/m1_scales_vibrato_u.wav",
+    "offset": 1986291299,
+    "compressed": 1108343,
+    "size": 1483058,
+    "crc": 2986814045,
+    "method": 8
+  },
+  {
+    "name": "FULL/male1/scales/vibrato/m1_scales_vibrato_o.wav",
+    "offset": 1987399753,
+    "compressed": 1095759,
+    "size": 1473490,
+    "crc": 898999419,
+    "method": 8
+  },
+  {
+    "name": "FULL/male1/scales/vibrato/m1_scales_vibrato_i.wav",
+    "offset": 1988495623,
+    "compressed": 1057860,
+    "size": 1425650,
+    "crc": 1836638594,
+    "method": 8
+  },
+  {
+    "name": "FULL/male1/scales/belt/m1_scales_belt_o.wav",
+    "offset": 1989554171,
+    "compressed": 461916,
+    "size": 657816,
+    "crc": 2438654901,
+    "method": 8
+  },
+  {
+    "name": "FULL/male1/scales/belt/m1_scales_belt_i.wav",
+    "offset": 1990016192,
+    "compressed": 453501,
+    "size": 663906,
+    "crc": 1933764407,
+    "method": 8
+  },
+  {
+    "name": "FULL/male1/scales/belt/m1_scales_belt_e.wav",
+    "offset": 1990469798,
+    "compressed": 459921,
+    "size": 645636,
+    "crc": 2895618707,
+    "method": 8
+  },
+  {
+    "name": "FULL/male1/scales/belt/m1_scales_belt_u.wav",
+    "offset": 1990929824,
+    "compressed": 450679,
+    "size": 669998,
+    "crc": 2606244453,
+    "method": 8
+  },
+  {
+    "name": "FULL/male1/scales/belt/m1_scales_belt_a.wav",
+    "offset": 1991380608,
+    "compressed": 433830,
+    "size": 609094,
+    "crc": 2388948912,
+    "method": 8
+  },
+  {
+    "name": "FULL/male1/scales/breathy/m1_scales_breathy_e.wav",
+    "offset": 2006691295,
+    "compressed": 634529,
+    "size": 1184934,
+    "crc": 562162309,
+    "method": 8
+  },
+  {
+    "name": "FULL/male1/scales/breathy/m1_scales_breathy_a.wav",
+    "offset": 2007326452,
+    "compressed": 534063,
+    "size": 981812,
+    "crc": 47376471,
+    "method": 8
+  },
+  {
+    "name": "FULL/male1/scales/breathy/m1_scales_breathy_u.wav",
+    "offset": 2007860626,
+    "compressed": 717493,
+    "size": 1354204,
+    "crc": 1223977511,
+    "method": 8
+  },
+  {
+    "name": "FULL/male1/scales/breathy/m1_scales_breathy_o.wav",
+    "offset": 2008578230,
+    "compressed": 635879,
+    "size": 1261106,
+    "crc": 3549718662,
+    "method": 8
+  },
+  {
+    "name": "FULL/male1/scales/breathy/m1_scales_breathy_i.wav",
+    "offset": 2009214220,
+    "compressed": 727958,
+    "size": 1371132,
+    "crc": 3633724541,
+    "method": 8
+  },
+  {
+    "name": "FULL/male1/long_tones/straight/m1_long_straight_i.wav",
+    "offset": 2028257532,
+    "compressed": 568232,
+    "size": 897668,
+    "crc": 2436656680,
+    "method": 8
+  },
+  {
+    "name": "FULL/male1/long_tones/straight/m1_long_straight_o.wav",
+    "offset": 2028826411,
+    "compressed": 581017,
+    "size": 897668,
+    "crc": 503919899,
+    "method": 8
+  },
+  {
+    "name": "FULL/male1/long_tones/straight/m1_long_straight_u.wav",
+    "offset": 2029407543,
+    "compressed": 543857,
+    "size": 834120,
+    "crc": 1313108941,
+    "method": 8
+  },
+  {
+    "name": "FULL/male1/long_tones/straight/m1_long_straight_a.wav",
+    "offset": 2029951515,
+    "compressed": 600306,
+    "size": 897668,
+    "crc": 2664098753,
+    "method": 8
+  },
+  {
+    "name": "FULL/male1/long_tones/straight/m1_long_straight_e.wav",
+    "offset": 2030551936,
+    "compressed": 636468,
+    "size": 937386,
+    "crc": 2499811258,
+    "method": 8
+  }
+]

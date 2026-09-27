@@ -1,0 +1,27 @@
+// VocalSet by Wilkins, Seetharaman, Wahl & Pardo. CC BY 4.0. See ATTRIBUTION.md.
+// Edited/looped by Cantabile. Select vowel: MIDI 24 a, 25 e, 26 i, 27 o, 28 u.
+<global> sw_lokey=24 sw_hikey=28 sw_default=24 ampeg_attack=0.015 ampeg_release=0.18
+<group> sw_last=24 sw_label=a
+<region> sample=../samples/m6/belt_a_49_0.wav pitch_keycenter=49 tune=-4 lokey=42 hikey=53 loop_mode=loop_continuous loop_start=10130 loop_end=33174
+<region> sample=../samples/m6/belt_a_58_2.wav pitch_keycenter=58 tune=-24 lokey=54 hikey=59 loop_mode=loop_continuous loop_start=7026 loop_end=21178
+<region> sample=../samples/m6/belt_a_61_3.wav pitch_keycenter=61 tune=1 lokey=60 hikey=68 loop_mode=loop_continuous loop_start=7317 loop_end=22302
+<group> sw_last=25 sw_label=e
+<region> sample=../samples/m6/belt_e_49_0.wav pitch_keycenter=49 tune=-15 lokey=42 hikey=52 loop_mode=loop_continuous loop_start=10712 loop_end=35422
+<region> sample=../samples/m6/belt_e_56_1.wav pitch_keycenter=56 tune=-18 lokey=53 hikey=57 loop_mode=loop_continuous loop_start=8190 loop_end=25677
+<region> sample=../samples/m6/belt_e_58_2.wav pitch_keycenter=58 tune=-23 lokey=58 hikey=59 loop_mode=loop_continuous loop_start=7705 loop_end=23802
+<region> sample=../samples/m6/belt_e_61_3.wav pitch_keycenter=61 tune=-20 lokey=60 hikey=68 loop_mode=loop_continuous loop_start=8384 loop_end=26426
+<group> sw_last=26 sw_label=i
+<region> sample=../samples/m6/belt_i_49_0.wav pitch_keycenter=49 tune=-44 lokey=42 hikey=50 loop_mode=loop_continuous loop_start=7123 loop_end=21552
+<region> sample=../samples/m6/belt_i_51_1.wav pitch_keycenter=51 tune=-24 lokey=51 hikey=52 loop_mode=loop_continuous loop_start=7608 loop_end=23428
+<region> sample=../samples/m6/belt_i_54_2.wav pitch_keycenter=54 tune=40 lokey=53 hikey=57 loop_mode=loop_continuous loop_start=7705 loop_end=23802
+<region> sample=../samples/m6/belt_i_61_3.wav pitch_keycenter=61 tune=23 lokey=58 hikey=68 loop_mode=loop_continuous loop_start=11683 loop_end=39171
+<group> sw_last=27 sw_label=o
+<region> sample=../samples/m6/belt_o_49_0.wav pitch_keycenter=49 tune=-3 lokey=42 hikey=50 loop_mode=loop_continuous loop_start=8287 loop_end=26051
+<region> sample=../samples/m6/belt_o_51_1.wav pitch_keycenter=51 tune=-37 lokey=51 hikey=52 loop_mode=loop_continuous loop_start=8578 loop_end=27176
+<region> sample=../samples/m6/belt_o_54_2.wav pitch_keycenter=54 tune=-27 lokey=53 hikey=57 loop_mode=loop_continuous loop_start=9742 loop_end=31674
+<region> sample=../samples/m6/belt_o_60_3.wav pitch_keycenter=60 tune=-25 lokey=58 hikey=67 loop_mode=loop_continuous loop_start=8384 loop_end=26426
+<group> sw_last=28 sw_label=u
+<region> sample=../samples/m6/belt_u_51_0.wav pitch_keycenter=51 tune=-22 lokey=44 hikey=54 loop_mode=loop_continuous loop_start=8287 loop_end=26051
+<region> sample=../samples/m6/belt_u_58_1.wav pitch_keycenter=58 tune=-40 lokey=55 hikey=59 loop_mode=loop_continuous loop_start=7220 loop_end=21928
+<region> sample=../samples/m6/belt_u_61_2.wav pitch_keycenter=61 tune=-26 lokey=60 hikey=62 loop_mode=loop_continuous loop_start=9160 loop_end=29425
+<region> sample=../samples/m6/belt_u_63_3.wav pitch_keycenter=63 tune=-41 lokey=63 hikey=70 loop_mode=loop_continuous loop_start=7511 loop_end=23053

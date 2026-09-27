@@ -1,0 +1,18 @@
+// VocalSet by Wilkins, Seetharaman, Wahl & Pardo. CC BY 4.0. See ATTRIBUTION.md.
+// Edited/looped by Cantabile. Select vowel: MIDI 24 a, 25 e, 26 i, 27 o, 28 u.
+<global> sw_lokey=24 sw_hikey=28 sw_default=24 ampeg_attack=0.015 ampeg_release=0.18
+<group> sw_last=24 sw_label=a
+<region> sample=../samples/m1/belt_a_47_0.wav pitch_keycenter=47 tune=-2 lokey=40 hikey=52 loop_mode=loop_continuous loop_start=4309 loop_end=10683
+<region> sample=../samples/m1/belt_a_58_1.wav pitch_keycenter=58 tune=-14 lokey=53 hikey=65 loop_mode=loop_continuous loop_start=3433 loop_end=8433
+<group> sw_last=26 sw_label=i
+<region> sample=../samples/m1/belt_i_49_0.wav pitch_keycenter=49 tune=5 lokey=42 hikey=54 loop_mode=loop_continuous loop_start=4043 loop_end=9933
+<region> sample=../samples/m1/belt_i_59_2.wav pitch_keycenter=59 tune=-38 lokey=55 hikey=66 loop_mode=loop_continuous loop_start=3128 loop_end=7684
+<group> sw_last=27 sw_label=o
+<region> sample=../samples/m1/belt_o_49_0.wav pitch_keycenter=49 tune=33 lokey=42 hikey=50 loop_mode=loop_continuous loop_start=4196 loop_end=10308
+<region> sample=../samples/m1/belt_o_52_1.wav pitch_keycenter=52 tune=-18 lokey=51 hikey=54 loop_mode=loop_continuous loop_start=4309 loop_end=10682
+<region> sample=../samples/m1/belt_o_56_2.wav pitch_keycenter=56 tune=-5 lokey=55 hikey=57 loop_mode=loop_continuous loop_start=3891 loop_end=9558
+<region> sample=../samples/m1/belt_o_59_3.wav pitch_keycenter=59 tune=-29 lokey=58 hikey=66 loop_mode=loop_continuous loop_start=3433 loop_end=8433
+<group> sw_last=28 sw_label=u
+<region> sample=../samples/m1/belt_u_47_0.wav pitch_keycenter=47 tune=-23 lokey=40 hikey=48 loop_mode=loop_continuous loop_start=9742 loop_end=31674
+<region> sample=../samples/m1/belt_u_49_1.wav pitch_keycenter=49 tune=0 lokey=49 hikey=54 loop_mode=loop_continuous loop_start=4794 loop_end=12556
+<region> sample=../samples/m1/belt_u_59_3.wav pitch_keycenter=59 tune=-31 lokey=55 hikey=66 loop_mode=loop_continuous loop_start=5085 loop_end=13681

@@ -1,0 +1,13 @@
+.venv/
+.downloads/
+models/
+cache/
+renders/
+imports/
+research/
+__pycache__/
+*.pyc
+node_modules/
+
+# Expanded from versioned singer packs by prepare_bank.py.
+vocal-bank/samples/

@@ -1,0 +1,22 @@
+// VocalSet by Wilkins, Seetharaman, Wahl & Pardo. CC BY 4.0. See ATTRIBUTION.md.
+// Edited/looped by Cantabile. Select vowel: MIDI 24 a, 25 e, 26 i, 27 o, 28 u.
+<global> sw_lokey=24 sw_hikey=28 sw_default=24 ampeg_attack=0.015 ampeg_release=0.18
+<group> sw_last=24 sw_label=a
+<region> sample=../samples/f1/straight_a_72_0.wav pitch_keycenter=72 tune=-13 lokey=65 hikey=74 loop_mode=loop_continuous loop_start=21967 loop_end=78905
+<region> sample=../samples/f1/straight_a_77_1.wav pitch_keycenter=77 tune=-15 lokey=75 hikey=84 loop_mode=loop_continuous loop_start=24829 loop_end=89963
+<group> sw_last=25 sw_label=e
+<region> sample=../samples/f1/straight_e_60_0.wav pitch_keycenter=60 tune=-5 lokey=53 hikey=66 loop_mode=loop_continuous loop_start=9839 loop_end=32048
+<region> sample=../samples/f1/straight_e_72_1.wav pitch_keycenter=72 tune=-2 lokey=67 hikey=74 loop_mode=loop_continuous loop_start=24004 loop_end=86777
+<region> sample=../samples/f1/straight_e_77_2.wav pitch_keycenter=77 tune=-7 lokey=75 hikey=84 loop_mode=loop_continuous loop_start=24829 loop_end=89963
+<group> sw_last=26 sw_label=i
+<region> sample=../samples/f1/straight_i_60_0.wav pitch_keycenter=60 tune=-3 lokey=53 hikey=66 loop_mode=loop_continuous loop_start=6055 loop_end=17429
+<region> sample=../samples/f1/straight_i_72_1.wav pitch_keycenter=72 tune=-4 lokey=67 hikey=74 loop_mode=loop_continuous loop_start=20899 loop_end=74781
+<region> sample=../samples/f1/straight_i_77_2.wav pitch_keycenter=77 tune=-12 lokey=75 hikey=84 loop_mode=loop_continuous loop_start=24829 loop_end=89963
+<group> sw_last=27 sw_label=o
+<region> sample=../samples/f1/straight_o_60_0.wav pitch_keycenter=60 tune=-12 lokey=53 hikey=66 loop_mode=loop_continuous loop_start=17116 loop_end=60162
+<region> sample=../samples/f1/straight_o_72_1.wav pitch_keycenter=72 tune=-8 lokey=67 hikey=74 loop_mode=loop_continuous loop_start=22161 loop_end=79655
+<region> sample=../samples/f1/straight_o_77_2.wav pitch_keycenter=77 tune=-9 lokey=75 hikey=84 loop_mode=loop_continuous loop_start=24829 loop_end=89963
+<group> sw_last=28 sw_label=u
+<region> sample=../samples/f1/straight_u_60_0.wav pitch_keycenter=60 tune=-2 lokey=53 hikey=66 loop_mode=loop_continuous loop_start=14884 loop_end=51540
+<region> sample=../samples/f1/straight_u_72_1.wav pitch_keycenter=72 tune=-17 lokey=67 hikey=74 loop_mode=loop_continuous loop_start=13914 loop_end=47793
+<region> sample=../samples/f1/straight_u_77_2.wav pitch_keycenter=77 tune=-3 lokey=75 hikey=84 loop_mode=loop_continuous loop_start=24829 loop_end=89963

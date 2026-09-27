@@ -1,0 +1,13 @@
+{
+  "name": "cantabile-prototype",
+  "version": "0.2.0",
+  "private": true,
+  "scripts": {
+    "test:browser": "node tests/browser.cjs",
+    "test:dom": "node tests/dom.cjs"
+  },
+  "devDependencies": {
+    "playwright": "^1.61.0",
+    "jsdom": "^29.0.0"
+  }
+}

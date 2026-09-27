@@ -1,0 +1,612 @@
+{
+  "version": 1,
+  "title": "Hold the Light",
+  "tempo": 88,
+  "reverb": 0.18,
+  "quality": "draft",
+  "tracks": [
+    {
+      "id": "solo",
+      "name": "Solo voice",
+      "enabled": true,
+      "gain": 0.9,
+      "pan": 0,
+      "notes": [
+        {
+          "start": 1,
+          "duration": 2,
+          "pitch": 64,
+          "lyric": "Hold"
+        },
+        {
+          "start": 3,
+          "duration": 1,
+          "pitch": 67,
+          "lyric": "the"
+        },
+        {
+          "start": 4,
+          "duration": 3,
+          "pitch": 69,
+          "lyric": "light"
+        },
+        {
+          "start": 7,
+          "duration": 1,
+          "pitch": 67,
+          "lyric": "through"
+        },
+        {
+          "start": 8,
+          "duration": 1,
+          "pitch": 64,
+          "lyric": "the"
+        },
+        {
+          "start": 9,
+          "duration": 4,
+          "pitch": 62,
+          "lyric": "night"
+        },
+        {
+          "start": 13,
+          "duration": 1,
+          "pitch": 64,
+          "lyric": "let"
+        },
+        {
+          "start": 14,
+          "duration": 1,
+          "pitch": 67,
+          "lyric": "our"
+        },
+        {
+          "start": 15,
+          "duration": 3,
+          "pitch": 72,
+          "lyric": "song"
+        },
+        {
+          "start": 18,
+          "duration": 2,
+          "pitch": 71,
+          "lyric": "rise"
+        },
+        {
+          "start": 20,
+          "duration": 1,
+          "pitch": 69,
+          "lyric": "to"
+        },
+        {
+          "start": 21,
+          "duration": 1,
+          "pitch": 67,
+          "lyric": "the"
+        },
+        {
+          "start": 22,
+          "duration": 3,
+          "pitch": 64,
+          "lyric": "sky"
+        }
+      ],
+      "role": "solo",
+      "singers": 1,
+      "voice": "hanami",
+      "spread": 0.35
+    },
+    {
+      "id": "soprano",
+      "name": "Soprano",
+      "enabled": false,
+      "gain": 0.42,
+      "pan": -0.3,
+      "voice": "hanami",
+      "notes": [
+        {
+          "start": 1,
+          "duration": 2,
+          "pitch": 64,
+          "lyric": "Hold"
+        },
+        {
+          "start": 3,
+          "duration": 1,
+          "pitch": 67,
+          "lyric": "the"
+        },
+        {
+          "start": 4,
+          "duration": 3,
+          "pitch": 69,
+          "lyric": "light"
+        },
+        {
+          "start": 7,
+          "duration": 1,
+          "pitch": 67,
+          "lyric": "through"
+        },
+        {
+          "start": 8,
+          "duration": 1,
+          "pitch": 64,
+          "lyric": "the"
+        },
+        {
+          "start": 9,
+          "duration": 4,
+          "pitch": 62,
+          "lyric": "night"
+        },
+        {
+          "start": 13,
+          "duration": 1,
+          "pitch": 64,
+          "lyric": "let"
+        },
+        {
+          "start": 14,
+          "duration": 1,
+          "pitch": 67,
+          "lyric": "our"
+        },
+        {
+          "start": 15,
+          "duration": 3,
+          "pitch": 72,
+          "lyric": "song"
+        },
+        {
+          "start": 18,
+          "duration": 2,
+          "pitch": 71,
+          "lyric": "rise"
+        },
+        {
+          "start": 20,
+          "duration": 1,
+          "pitch": 69,
+          "lyric": "to"
+        },
+        {
+          "start": 21,
+          "duration": 1,
+          "pitch": 67,
+          "lyric": "the"
+        },
+        {
+          "start": 22,
+          "duration": 3,
+          "pitch": 64,
+          "lyric": "sky"
+        }
+      ],
+      "role": "soprano",
+      "singers": 1,
+      "spread": 0.35
+    },
+    {
+      "id": "alto",
+      "name": "Alto",
+      "enabled": false,
+      "gain": 0.42,
+      "pan": 0.3,
+      "voice": "hanami",
+      "notes": [
+        {
+          "start": 1,
+          "duration": 2,
+          "pitch": 59,
+          "lyric": "Hold"
+        },
+        {
+          "start": 3,
+          "duration": 1,
+          "pitch": 62,
+          "lyric": "the"
+        },
+        {
+          "start": 4,
+          "duration": 3,
+          "pitch": 64,
+          "lyric": "light"
+        },
+        {
+          "start": 7,
+          "duration": 1,
+          "pitch": 62,
+          "lyric": "through"
+        },
+        {
+          "start": 8,
+          "duration": 1,
+          "pitch": 59,
+          "lyric": "the"
+        },
+        {
+          "start": 9,
+          "duration": 4,
+          "pitch": 57,
+          "lyric": "night"
+        },
+        {
+          "start": 13,
+          "duration": 1,
+          "pitch": 59,
+          "lyric": "let"
+        },
+        {
+          "start": 14,
+          "duration": 1,
+          "pitch": 62,
+          "lyric": "our"
+        },
+        {
+          "start": 15,
+          "duration": 3,
+          "pitch": 67,
+          "lyric": "song"
+        },
+        {
+          "start": 18,
+          "duration": 2,
+          "pitch": 66,
+          "lyric": "rise"
+        },
+        {
+          "start": 20,
+          "duration": 1,
+          "pitch": 64,
+          "lyric": "to"
+        },
+        {
+          "start": 21,
+          "duration": 1,
+          "pitch": 62,
+          "lyric": "the"
+        },
+        {
+          "start": 22,
+          "duration": 3,
+          "pitch": 59,
+          "lyric": "sky"
+        }
+      ],
+      "role": "alto",
+      "singers": 1,
+      "spread": 0.35
+    },
+    {
+      "id": "tenor",
+      "name": "Tenor",
+      "enabled": false,
+      "gain": 0.42,
+      "pan": -0.15,
+      "voice": "tiger",
+      "notes": [
+        {
+          "start": 1,
+          "duration": 2,
+          "pitch": 52,
+          "lyric": "Hold"
+        },
+        {
+          "start": 3,
+          "duration": 1,
+          "pitch": 55,
+          "lyric": "the"
+        },
+        {
+          "start": 4,
+          "duration": 3,
+          "pitch": 57,
+          "lyric": "light"
+        },
+        {
+          "start": 7,
+          "duration": 1,
+          "pitch": 55,
+          "lyric": "through"
+        },
+        {
+          "start": 8,
+          "duration": 1,
+          "pitch": 52,
+          "lyric": "the"
+        },
+        {
+          "start": 9,
+          "duration": 4,
+          "pitch": 50,
+          "lyric": "night"
+        },
+        {
+          "start": 13,
+          "duration": 1,
+          "pitch": 52,
+          "lyric": "let"
+        },
+        {
+          "start": 14,
+          "duration": 1,
+          "pitch": 55,
+          "lyric": "our"
+        },
+        {
+          "start": 15,
+          "duration": 3,
+          "pitch": 60,
+          "lyric": "song"
+        },
+        {
+          "start": 18,
+          "duration": 2,
+          "pitch": 59,
+          "lyric": "rise"
+        },
+        {
+          "start": 20,
+          "duration": 1,
+          "pitch": 57,
+          "lyric": "to"
+        },
+        {
+          "start": 21,
+          "duration": 1,
+          "pitch": 55,
+          "lyric": "the"
+        },
+        {
+          "start": 22,
+          "duration": 3,
+          "pitch": 52,
+          "lyric": "sky"
+        }
+      ],
+      "role": "tenor",
+      "singers": 1,
+      "spread": 0.35
+    },
+    {
+      "id": "bass",
+      "name": "Bass",
+      "enabled": false,
+      "gain": 0.42,
+      "pan": 0.15,
+      "voice": "tiger",
+      "notes": [
+        {
+          "start": 1,
+          "duration": 2,
+          "pitch": 40,
+          "lyric": "Hold"
+        },
+        {
+          "start": 3,
+          "duration": 1,
+          "pitch": 43,
+          "lyric": "the"
+        },
+        {
+          "start": 4,
+          "duration": 3,
+          "pitch": 45,
+          "lyric": "light"
+        },
+        {
+          "start": 7,
+          "duration": 1,
+          "pitch": 43,
+          "lyric": "through"
+        },
+        {
+          "start": 8,
+          "duration": 1,
+          "pitch": 40,
+          "lyric": "the"
+        },
+        {
+          "start": 9,
+          "duration": 4,
+          "pitch": 38,
+          "lyric": "night"
+        },
+        {
+          "start": 13,
+          "duration": 1,
+          "pitch": 40,
+          "lyric": "let"
+        },
+        {
+          "start": 14,
+          "duration": 1,
+          "pitch": 43,
+          "lyric": "our"
+        },
+        {
+          "start": 15,
+          "duration": 3,
+          "pitch": 48,
+          "lyric": "song"
+        },
+        {
+          "start": 18,
+          "duration": 2,
+          "pitch": 47,
+          "lyric": "rise"
+        },
+        {
+          "start": 20,
+          "duration": 1,
+          "pitch": 45,
+          "lyric": "to"
+        },
+        {
+          "start": 21,
+          "duration": 1,
+          "pitch": 43,
+          "lyric": "the"
+        },
+        {
+          "start": 22,
+          "duration": 3,
+          "pitch": 40,
+          "lyric": "sky"
+        }
+      ],
+      "role": "bass",
+      "singers": 1,
+      "spread": 0.35
+    },
+    {
+      "id": "violin",
+      "name": "Violin",
+      "enabled": true,
+      "gain": 0.28,
+      "pan": -0.4,
+      "notes": [
+        {
+          "start": 0,
+          "duration": 7,
+          "pitch": 64,
+          "lyric": ""
+        },
+        {
+          "start": 7,
+          "duration": 7,
+          "pitch": 65,
+          "lyric": ""
+        },
+        {
+          "start": 14,
+          "duration": 7,
+          "pitch": 67,
+          "lyric": ""
+        },
+        {
+          "start": 21,
+          "duration": 7,
+          "pitch": 64,
+          "lyric": ""
+        }
+      ],
+      "role": "violin",
+      "singers": 1,
+      "voice": "hanami",
+      "spread": 0.35
+    },
+    {
+      "id": "cello",
+      "name": "Cello",
+      "enabled": true,
+      "gain": 0.48,
+      "pan": 0.25,
+      "notes": [
+        {
+          "start": 0,
+          "duration": 7,
+          "pitch": 48,
+          "lyric": ""
+        },
+        {
+          "start": 7,
+          "duration": 7,
+          "pitch": 45,
+          "lyric": ""
+        },
+        {
+          "start": 14,
+          "duration": 7,
+          "pitch": 43,
+          "lyric": ""
+        },
+        {
+          "start": 21,
+          "duration": 7,
+          "pitch": 48,
+          "lyric": ""
+        }
+      ],
+      "role": "cello",
+      "singers": 1,
+      "voice": "hanami",
+      "spread": 0.35
+    },
+    {
+      "id": "horn",
+      "name": "Horn",
+      "enabled": true,
+      "gain": 0.22,
+      "pan": 0.1,
+      "notes": [
+        {
+          "start": 0,
+          "duration": 7,
+          "pitch": 55,
+          "lyric": ""
+        },
+        {
+          "start": 7,
+          "duration": 7,
+          "pitch": 57,
+          "lyric": ""
+        },
+        {
+          "start": 14,
+          "duration": 7,
+          "pitch": 59,
+          "lyric": ""
+        },
+        {
+          "start": 21,
+          "duration": 7,
+          "pitch": 55,
+          "lyric": ""
+        }
+      ],
+      "role": "horn",
+      "singers": 1,
+      "voice": "hanami",
+      "spread": 0.35
+    },
+    {
+      "id": "flute",
+      "name": "Flute",
+      "enabled": true,
+      "gain": 0.15,
+      "pan": -0.2,
+      "notes": [
+        {
+          "start": 0,
+          "duration": 7,
+          "pitch": 76,
+          "lyric": ""
+        },
+        {
+          "start": 7,
+          "duration": 7,
+          "pitch": 77,
+          "lyric": ""
+        },
+        {
+          "start": 14,
+          "duration": 7,
+          "pitch": 79,
+          "lyric": ""
+        },
+        {
+          "start": 21,
+          "duration": 7,
+          "pitch": 76,
+          "lyric": ""
+        }
+      ],
+      "role": "flute",
+      "singers": 1,
+      "voice": "hanami",
+      "spread": 0.35
+    }
+  ]
+}

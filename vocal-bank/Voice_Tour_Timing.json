@@ -1,0 +1,122 @@
+[
+  {
+    "voice": "vs-f1",
+    "name": "F1 \u00b7 soprano",
+    "start_seconds": 0,
+    "end_seconds": 1.2
+  },
+  {
+    "voice": "vs-f2",
+    "name": "F2 \u00b7 soprano",
+    "start_seconds": 1.5,
+    "end_seconds": 2.7
+  },
+  {
+    "voice": "vs-f3",
+    "name": "F3 \u00b7 soprano",
+    "start_seconds": 3.0,
+    "end_seconds": 4.2
+  },
+  {
+    "voice": "vs-f4",
+    "name": "F4 \u00b7 soprano",
+    "start_seconds": 4.5,
+    "end_seconds": 5.7
+  },
+  {
+    "voice": "vs-f5",
+    "name": "F5 \u00b7 mezzo-soprano",
+    "start_seconds": 6.0,
+    "end_seconds": 7.2
+  },
+  {
+    "voice": "vs-f6",
+    "name": "F6 \u00b7 soprano",
+    "start_seconds": 7.5,
+    "end_seconds": 8.7
+  },
+  {
+    "voice": "vs-f7",
+    "name": "F7 \u00b7 soprano",
+    "start_seconds": 9.0,
+    "end_seconds": 10.2
+  },
+  {
+    "voice": "vs-f8",
+    "name": "F8 \u00b7 mezzo-soprano",
+    "start_seconds": 10.5,
+    "end_seconds": 11.7
+  },
+  {
+    "voice": "vs-f9",
+    "name": "F9 \u00b7 soprano",
+    "start_seconds": 12.0,
+    "end_seconds": 13.2
+  },
+  {
+    "voice": "vs-m1",
+    "name": "M1 \u00b7 baritone",
+    "start_seconds": 13.5,
+    "end_seconds": 14.7
+  },
+  {
+    "voice": "vs-m2",
+    "name": "M2 \u00b7 tenor",
+    "start_seconds": 15.0,
+    "end_seconds": 16.2
+  },
+  {
+    "voice": "vs-m3",
+    "name": "M3 \u00b7 tenor",
+    "start_seconds": 16.5,
+    "end_seconds": 17.7
+  },
+  {
+    "voice": "vs-m4",
+    "name": "M4 \u00b7 bass (?)",
+    "start_seconds": 18.0,
+    "end_seconds": 19.2
+  },
+  {
+    "voice": "vs-m5",
+    "name": "M5 \u00b7 baritone",
+    "start_seconds": 19.5,
+    "end_seconds": 20.7
+  },
+  {
+    "voice": "vs-m6",
+    "name": "M6 \u00b7 baritone",
+    "start_seconds": 21.0,
+    "end_seconds": 22.2
+  },
+  {
+    "voice": "vs-m7",
+    "name": "M7 \u00b7 tenor (?)",
+    "start_seconds": 22.5,
+    "end_seconds": 23.7
+  },
+  {
+    "voice": "vs-m8",
+    "name": "M8 \u00b7 bass",
+    "start_seconds": 24.0,
+    "end_seconds": 25.2
+  },
+  {
+    "voice": "vs-m9",
+    "name": "M9 \u00b7 countertenor",
+    "start_seconds": 25.5,
+    "end_seconds": 26.7
+  },
+  {
+    "voice": "vs-m10",
+    "name": "M10 \u00b7 bass-baritone",
+    "start_seconds": 27.0,
+    "end_seconds": 28.2
+  },
+  {
+    "voice": "vs-m11",
+    "name": "M11 \u00b7 tenor",
+    "start_seconds": 28.5,
+    "end_seconds": 29.7
+  }
+]

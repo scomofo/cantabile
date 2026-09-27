@@ -1,0 +1,719 @@
+{
+  "source_recordings": 401,
+  "voices": 20,
+  "samples": 1309,
+  "rejected": [
+    {
+      "source": "FULL/male1/scales/belt/m1_scales_belt_e.wav",
+      "reason": "No sufficiently stable pitched segment"
+    },
+    {
+      "source": "FULL/male1/scales/vibrato/m1_scales_vibrato_e.wav",
+      "reason": "No sufficiently stable pitched segment"
+    },
+    {
+      "source": "FULL/male10/scales/belt/m10_scales_belt_a.wav",
+      "reason": "No sufficiently stable pitched segment"
+    },
+    {
+      "source": "FULL/male10/scales/belt/m10_scales_belt_e.wav",
+      "reason": "No sufficiently stable pitched segment"
+    },
+    {
+      "source": "FULL/male10/scales/belt/m10_scales_belt_o.wav",
+      "reason": "No sufficiently stable pitched segment"
+    },
+    {
+      "source": "FULL/male10/scales/belt/m10_scales_belt_u.wav",
+      "reason": "No sufficiently stable pitched segment"
+    },
+    {
+      "source": "FULL/male10/scales/vibrato/m10_scales_vibrato_a.wav",
+      "reason": "No sufficiently stable pitched segment"
+    },
+    {
+      "source": "FULL/male10/scales/vibrato/m10_scales_vibrato_i.wav",
+      "reason": "No sufficiently stable pitched segment"
+    },
+    {
+      "source": "FULL/male10/scales/vibrato/m10_scales_vibrato_u.wav",
+      "reason": "No sufficiently stable pitched segment"
+    },
+    {
+      "source": "FULL/male11/scales/belt/m11_scales_belt_e.wav",
+      "reason": "No sufficiently stable pitched segment"
+    },
+    {
+      "source": "FULL/male11/scales/belt/m11_scales_belt_o.wav",
+      "reason": "No sufficiently stable pitched segment"
+    },
+    {
+      "source": "FULL/male11/scales/vibrato/m11_scales_vibrato_a.wav",
+      "reason": "No sufficiently stable pitched segment"
+    },
+    {
+      "source": "FULL/male4/scales/vibrato/m4_scales_vibrato_i.wav",
+      "reason": "No sufficiently stable pitched segment"
+    },
+    {
+      "source": "FULL/male7/scales/vibrato/m7_scales_vibrato_e.wav",
+      "reason": "No sufficiently stable pitched segment"
+    }
+  ],
+  "coverage": {
+    "vs-f1": {
+      "belt": [
+        "a",
+        "e",
+        "i",
+        "o",
+        "u"
+      ],
+      "breathy": [
+        "a",
+        "e",
+        "i",
+        "o",
+        "u"
+      ],
+      "straight": [
+        "a",
+        "e",
+        "i",
+        "o",
+        "u"
+      ],
+      "vibrato": [
+        "a",
+        "e",
+        "i",
+        "o",
+        "u"
+      ]
+    },
+    "vs-f2": {
+      "belt": [
+        "a",
+        "e",
+        "i",
+        "o",
+        "u"
+      ],
+      "breathy": [
+        "a",
+        "e",
+        "i",
+        "o",
+        "u"
+      ],
+      "straight": [
+        "a",
+        "e",
+        "i",
+        "o",
+        "u"
+      ],
+      "vibrato": [
+        "a",
+        "e",
+        "i",
+        "o",
+        "u"
+      ]
+    },
+    "vs-f3": {
+      "belt": [
+        "a",
+        "e",
+        "i",
+        "o",
+        "u"
+      ],
+      "breathy": [
+        "a",
+        "e",
+        "i",
+        "o",
+        "u"
+      ],
+      "straight": [
+        "a",
+        "e",
+        "i",
+        "o",
+        "u"
+      ],
+      "vibrato": [
+        "a",
+        "e",
+        "i",
+        "o",
+        "u"
+      ]
+    },
+    "vs-f4": {
+      "belt": [
+        "a",
+        "e",
+        "i",
+        "o",
+        "u"
+      ],
+      "breathy": [
+        "a",
+        "e",
+        "i",
+        "o",
+        "u"
+      ],
+      "straight": [
+        "a",
+        "e",
+        "i",
+        "o",
+        "u"
+      ],
+      "vibrato": [
+        "a",
+        "e",
+        "i",
+        "o",
+        "u"
+      ]
+    },
+    "vs-f5": {
+      "belt": [
+        "a",
+        "e",
+        "i",
+        "o",
+        "u"
+      ],
+      "breathy": [
+        "a",
+        "e",
+        "i",
+        "o",
+        "u"
+      ],
+      "straight": [
+        "a",
+        "e",
+        "i",
+        "o",
+        "u"
+      ],
+      "vibrato": [
+        "a",
+        "e",
+        "i",
+        "o",
+        "u"
+      ]
+    },
+    "vs-f6": {
+      "belt": [
+        "a",
+        "e",
+        "i",
+        "o",
+        "u"
+      ],
+      "breathy": [
+        "a",
+        "e",
+        "i",
+        "o",
+        "u"
+      ],
+      "straight": [
+        "a",
+        "e",
+        "i",
+        "o",
+        "u"
+      ],
+      "vibrato": [
+        "a",
+        "e",
+        "i",
+        "o",
+        "u"
+      ]
+    },
+    "vs-f7": {
+      "belt": [
+        "a",
+        "e",
+        "i",
+        "o",
+        "u"
+      ],
+      "breathy": [
+        "a",
+        "e",
+        "i",
+        "o",
+        "u"
+      ],
+      "straight": [
+        "a",
+        "e",
+        "i",
+        "o",
+        "u"
+      ],
+      "vibrato": [
+        "a",
+        "e",
+        "i",
+        "o",
+        "u"
+      ]
+    },
+    "vs-f8": {
+      "belt": [
+        "a",
+        "e",
+        "i",
+        "o",
+        "u"
+      ],
+      "breathy": [
+        "a",
+        "e",
+        "i",
+        "o",
+        "u"
+      ],
+      "straight": [
+        "a",
+        "e",
+        "i",
+        "o",
+        "u"
+      ],
+      "vibrato": [
+        "a",
+        "e",
+        "i",
+        "o",
+        "u"
+      ]
+    },
+    "vs-f9": {
+      "belt": [
+        "a",
+        "e",
+        "i",
+        "o",
+        "u"
+      ],
+      "breathy": [
+        "a",
+        "e",
+        "i",
+        "o",
+        "u"
+      ],
+      "straight": [
+        "a",
+        "e",
+        "i",
+        "o",
+        "u"
+      ],
+      "vibrato": [
+        "a",
+        "e",
+        "i",
+        "o",
+        "u"
+      ]
+    },
+    "vs-m1": {
+      "belt": [
+        "a",
+        "i",
+        "o",
+        "u"
+      ],
+      "breathy": [
+        "a",
+        "e",
+        "i",
+        "o",
+        "u"
+      ],
+      "straight": [
+        "a",
+        "e",
+        "i",
+        "o",
+        "u"
+      ],
+      "vibrato": [
+        "a",
+        "i",
+        "o",
+        "u"
+      ]
+    },
+    "vs-m2": {
+      "belt": [
+        "a",
+        "e",
+        "i",
+        "o",
+        "u"
+      ],
+      "breathy": [
+        "a",
+        "e",
+        "i",
+        "o",
+        "u"
+      ],
+      "straight": [
+        "a",
+        "e",
+        "i",
+        "o",
+        "u"
+      ],
+      "vibrato": [
+        "a",
+        "e",
+        "i",
+        "o",
+        "u"
+      ]
+    },
+    "vs-m3": {
+      "belt": [
+        "a",
+        "e",
+        "i",
+        "o",
+        "u"
+      ],
+      "breathy": [
+        "a",
+        "e",
+        "i",
+        "o",
+        "u"
+      ],
+      "straight": [
+        "a",
+        "e",
+        "i",
+        "o",
+        "u"
+      ],
+      "vibrato": [
+        "a",
+        "e",
+        "i",
+        "o",
+        "u"
+      ]
+    },
+    "vs-m4": {
+      "belt": [
+        "a",
+        "e",
+        "i",
+        "o",
+        "u"
+      ],
+      "breathy": [
+        "a",
+        "e",
+        "i",
+        "o",
+        "u"
+      ],
+      "straight": [
+        "a",
+        "e",
+        "i",
+        "o",
+        "u"
+      ],
+      "vibrato": [
+        "a",
+        "e",
+        "o",
+        "u"
+      ]
+    },
+    "vs-m5": {
+      "belt": [
+        "a",
+        "e",
+        "i",
+        "o",
+        "u"
+      ],
+      "breathy": [
+        "a",
+        "e",
+        "i",
+        "o",
+        "u"
+      ],
+      "straight": [
+        "a",
+        "e",
+        "i",
+        "o",
+        "u"
+      ],
+      "vibrato": [
+        "a",
+        "e",
+        "i",
+        "o",
+        "u"
+      ]
+    },
+    "vs-m6": {
+      "belt": [
+        "a",
+        "e",
+        "i",
+        "o",
+        "u"
+      ],
+      "breathy": [
+        "a",
+        "e",
+        "i",
+        "o",
+        "u"
+      ],
+      "straight": [
+        "a",
+        "e",
+        "i",
+        "o",
+        "u"
+      ],
+      "vibrato": [
+        "a",
+        "e",
+        "i",
+        "o",
+        "u"
+      ]
+    },
+    "vs-m7": {
+      "belt": [
+        "a",
+        "e",
+        "i",
+        "o",
+        "u"
+      ],
+      "breathy": [
+        "a",
+        "e",
+        "i",
+        "o",
+        "u"
+      ],
+      "straight": [
+        "a",
+        "e",
+        "i",
+        "o",
+        "u"
+      ],
+      "vibrato": [
+        "a",
+        "i",
+        "o",
+        "u"
+      ]
+    },
+    "vs-m8": {
+      "belt": [
+        "a",
+        "e",
+        "i",
+        "o",
+        "u"
+      ],
+      "breathy": [
+        "a",
+        "e",
+        "i",
+        "o",
+        "u"
+      ],
+      "straight": [
+        "a",
+        "e",
+        "i",
+        "o",
+        "u"
+      ],
+      "vibrato": [
+        "a",
+        "e",
+        "i",
+        "o",
+        "u"
+      ]
+    },
+    "vs-m9": {
+      "belt": [
+        "a",
+        "e",
+        "i",
+        "o",
+        "u"
+      ],
+      "breathy": [
+        "a",
+        "e",
+        "i",
+        "o",
+        "u"
+      ],
+      "straight": [
+        "a",
+        "e",
+        "i",
+        "o",
+        "u"
+      ],
+      "vibrato": [
+        "a",
+        "e",
+        "i",
+        "o",
+        "u"
+      ]
+    },
+    "vs-m10": {
+      "breathy": [
+        "a",
+        "e",
+        "i",
+        "o",
+        "u"
+      ],
+      "straight": [
+        "a",
+        "e",
+        "i",
+        "o",
+        "u"
+      ]
+    },
+    "vs-m11": {
+      "belt": [
+        "a",
+        "i",
+        "u"
+      ],
+      "breathy": [
+        "a",
+        "e",
+        "i",
+        "o",
+        "u"
+      ],
+      "straight": [
+        "a",
+        "e",
+        "i",
+        "o",
+        "u"
+      ],
+      "vibrato": [
+        "e",
+        "i",
+        "o",
+        "u"
+      ]
+    }
+  },
+  "samples_before_pitch_audit": 1381,
+  "pitch_audit_rejections": [
+    "samples/f1/vibrato_a_72_2.wav",
+    "samples/f1/vibrato_a_75_3.wav",
+    "samples/f1/vibrato_i_73_3.wav",
+    "samples/f1/vibrato_o_71_2.wav",
+    "samples/f1/vibrato_o_73_3.wav",
+    "samples/f1/vibrato_u_73_3.wav",
+    "samples/f3/belt_a_65_1.wav",
+    "samples/f3/belt_o_77_3.wav",
+    "samples/f5/belt_o_84_3.wav",
+    "samples/f5/vibrato_i_61_0.wav",
+    "samples/f6/belt_a_74_3.wav",
+    "samples/f8/straight_i_61_0.wav",
+    "samples/f8/vibrato_e_69_2.wav",
+    "samples/f8/vibrato_o_74_3.wav",
+    "samples/f9/straight_a_84_2.wav",
+    "samples/f9/breathy_a_84_3.wav",
+    "samples/f9/vibrato_e_68_1.wav",
+    "samples/f9/vibrato_e_72_2.wav",
+    "samples/f9/vibrato_u_61_0.wav",
+    "samples/m1/straight_e_77_3.wav",
+    "samples/m1/belt_i_56_1.wav",
+    "samples/m1/belt_u_56_2.wav",
+    "samples/m2/straight_a_76_2.wav",
+    "samples/m2/belt_e_63_3.wav",
+    "samples/m2/belt_o_55_2.wav",
+    "samples/m3/straight_o_71_3.wav",
+    "samples/m3/belt_i_56_2.wav",
+    "samples/m3/belt_u_71_2.wav",
+    "samples/m3/vibrato_e_56_2.wav",
+    "samples/m3/vibrato_e_72_3.wav",
+    "samples/m3/vibrato_i_66_3.wav",
+    "samples/m3/vibrato_u_70_3.wav",
+    "samples/m4/straight_a_77_3.wav",
+    "samples/m4/straight_e_77_3.wav",
+    "samples/m4/belt_e_55_2.wav",
+    "samples/m4/belt_i_55_2.wav",
+    "samples/m4/belt_o_55_1.wav",
+    "samples/m4/belt_o_62_3.wav",
+    "samples/m4/vibrato_o_71_3.wav",
+    "samples/m5/straight_a_77_3.wav",
+    "samples/m5/straight_e_77_2.wav",
+    "samples/m5/belt_a_62_3.wav",
+    "samples/m5/belt_o_74_3.wav",
+    "samples/m5/vibrato_e_55_2.wav",
+    "samples/m6/straight_e_77_3.wav",
+    "samples/m6/belt_a_54_1.wav",
+    "samples/m6/vibrato_a_77_3.wav",
+    "samples/m6/vibrato_e_74_2.wav",
+    "samples/m6/vibrato_e_77_3.wav",
+    "samples/m7/straight_a_77_1.wav",
+    "samples/m7/straight_e_77_2.wav",
+    "samples/m7/straight_o_77_2.wav",
+    "samples/m7/vibrato_a_77_3.wav",
+    "samples/m7/vibrato_i_67_3.wav",
+    "samples/m7/vibrato_u_55_2.wav",
+    "samples/m7/vibrato_u_69_3.wav",
+    "samples/m8/straight_a_72_3.wav",
+    "samples/m8/straight_e_72_3.wav",
+    "samples/m8/belt_a_62_3.wav",
+    "samples/m8/belt_e_62_3.wav",
+    "samples/m8/belt_o_75_3.wav",
+    "samples/m8/vibrato_i_48_0.wav",
+    "samples/m9/straight_a_84_2.wav",
+    "samples/m9/belt_e_57_2.wav",
+    "samples/m9/belt_o_73_3.wav",
+    "samples/m9/vibrato_a_84_3.wav",
+    "samples/m10/straight_e_72_3.wav",
+    "samples/m10/belt_i_88_0.wav",
+    "samples/m10/vibrato_e_72_0.wav",
+    "samples/m10/vibrato_o_71_0.wav",
+    "samples/m11/straight_o_57_1.wav",
+    "samples/m11/vibrato_o_71_3.wav"
+  ]
+}

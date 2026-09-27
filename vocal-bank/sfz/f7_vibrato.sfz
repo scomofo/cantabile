@@ -1,0 +1,28 @@
+// VocalSet by Wilkins, Seetharaman, Wahl & Pardo. CC BY 4.0. See ATTRIBUTION.md.
+// Edited/looped by Cantabile. Select vowel: MIDI 24 a, 25 e, 26 i, 27 o, 28 u.
+<global> sw_lokey=24 sw_hikey=28 sw_default=24 ampeg_attack=0.015 ampeg_release=0.18
+<group> sw_last=24 sw_label=a
+<region> sample=../samples/f7/vibrato_a_63_0.wav pitch_keycenter=63 tune=6 lokey=56 hikey=63 loop_mode=loop_continuous loop_start=5764 loop_end=16305
+<region> sample=../samples/f7/vibrato_a_65_1.wav pitch_keycenter=65 tune=36 lokey=64 hikey=66 loop_mode=loop_continuous loop_start=9160 loop_end=29425
+<region> sample=../samples/f7/vibrato_a_69_2.wav pitch_keycenter=69 tune=14 lokey=67 hikey=71 loop_mode=loop_continuous loop_start=4309 loop_end=10683
+<region> sample=../samples/f7/vibrato_a_75_3.wav pitch_keycenter=75 tune=31 lokey=72 hikey=82 loop_mode=loop_continuous loop_start=4309 loop_end=10683
+<group> sw_last=25 sw_label=e
+<region> sample=../samples/f7/vibrato_e_61_0.wav pitch_keycenter=61 tune=4 lokey=54 hikey=61 loop_mode=loop_continuous loop_start=4988 loop_end=13307
+<region> sample=../samples/f7/vibrato_e_63_1.wav pitch_keycenter=63 tune=29 lokey=62 hikey=64 loop_mode=loop_continuous loop_start=3280 loop_end=8059
+<region> sample=../samples/f7/vibrato_e_66_2.wav pitch_keycenter=66 tune=26 lokey=65 hikey=68 loop_mode=loop_continuous loop_start=4503 loop_end=11432
+<region> sample=../samples/f7/vibrato_e_72_3.wav pitch_keycenter=72 tune=8 lokey=69 hikey=79 loop_mode=loop_continuous loop_start=5862 loop_end=16680
+<group> sw_last=26 sw_label=i
+<region> sample=../samples/f7/vibrato_i_61_0.wav pitch_keycenter=61 tune=12 lokey=54 hikey=61 loop_mode=loop_continuous loop_start=7705 loop_end=23802
+<region> sample=../samples/f7/vibrato_i_63_1.wav pitch_keycenter=63 tune=2 lokey=62 hikey=67 loop_mode=loop_continuous loop_start=7414 loop_end=22677
+<region> sample=../samples/f7/vibrato_i_72_2.wav pitch_keycenter=72 tune=22 lokey=68 hikey=73 loop_mode=loop_continuous loop_start=4503 loop_end=11431
+<region> sample=../samples/f7/vibrato_i_75_3.wav pitch_keycenter=75 tune=10 lokey=74 hikey=82 loop_mode=loop_continuous loop_start=4406 loop_end=11057
+<group> sw_last=27 sw_label=o
+<region> sample=../samples/f7/vibrato_o_61_0.wav pitch_keycenter=61 tune=11 lokey=54 hikey=62 loop_mode=loop_continuous loop_start=9742 loop_end=31674
+<region> sample=../samples/f7/vibrato_o_65_1.wav pitch_keycenter=65 tune=-9 lokey=63 hikey=66 loop_mode=loop_continuous loop_start=8190 loop_end=25677
+<region> sample=../samples/f7/vibrato_o_68_2.wav pitch_keycenter=68 tune=2 lokey=67 hikey=69 loop_mode=loop_continuous loop_start=8287 loop_end=26051
+<region> sample=../samples/f7/vibrato_o_72_3.wav pitch_keycenter=72 tune=8 lokey=70 hikey=79 loop_mode=loop_continuous loop_start=9451 loop_end=30549
+<group> sw_last=28 sw_label=u
+<region> sample=../samples/f7/vibrato_u_63_0.wav pitch_keycenter=63 tune=-8 lokey=56 hikey=65 loop_mode=loop_continuous loop_start=7802 loop_end=24177
+<region> sample=../samples/f7/vibrato_u_68_1.wav pitch_keycenter=68 tune=2 lokey=66 hikey=68 loop_mode=loop_continuous loop_start=7802 loop_end=24176
+<region> sample=../samples/f7/vibrato_u_70_2.wav pitch_keycenter=70 tune=8 lokey=69 hikey=71 loop_mode=loop_continuous loop_start=8190 loop_end=25677
+<region> sample=../samples/f7/vibrato_u_73_3.wav pitch_keycenter=73 tune=3 lokey=72 hikey=80 loop_mode=loop_continuous loop_start=8675 loop_end=27551

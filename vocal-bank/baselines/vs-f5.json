@@ -1,0 +1,127 @@
+{
+  "version": 1,
+  "title": "F5 \u00b7 mezzo-soprano \u2014 neutral baseline",
+  "tempo": 100,
+  "reverb": 0,
+  "quality": "draft",
+  "tracks": [
+    {
+      "id": "vs-f5",
+      "voice": "vs-f5",
+      "name": "F5 \u00b7 mezzo-soprano",
+      "role": "mezzo",
+      "singers": 1,
+      "spread": 0.35,
+      "gain": 0.7,
+      "pan": 0,
+      "delivery": "sing",
+      "vox": {
+        "transpose": 0,
+        "formant": 0,
+        "vibrato": 0,
+        "vibrato_rate": 5.2,
+        "glide": 0,
+        "accent_gain": 1.65,
+        "tone": 0,
+        "grit": 0,
+        "delay": 0
+      },
+      "bank_technique": "straight",
+      "notes": [
+        {
+          "start": 0,
+          "duration": 1.6,
+          "pitch": 72,
+          "lyric": "a"
+        },
+        {
+          "start": 2,
+          "duration": 1.6,
+          "pitch": 72,
+          "lyric": "e"
+        },
+        {
+          "start": 4,
+          "duration": 1.6,
+          "pitch": 72,
+          "lyric": "i"
+        },
+        {
+          "start": 6,
+          "duration": 1.6,
+          "pitch": 72,
+          "lyric": "o"
+        },
+        {
+          "start": 8,
+          "duration": 1.6,
+          "pitch": 72,
+          "lyric": "u"
+        }
+      ],
+      "baseline": {
+        "voice": "vs-f5",
+        "name": "F5 \u00b7 mezzo-soprano",
+        "role": "mezzo",
+        "singers": 1,
+        "spread": 0.35,
+        "gain": 0.7,
+        "pan": 0,
+        "delivery": "sing",
+        "vox": {
+          "transpose": 0,
+          "formant": 0,
+          "vibrato": 0,
+          "vibrato_rate": 5.2,
+          "glide": 0,
+          "accent_gain": 1.65,
+          "tone": 0,
+          "grit": 0,
+          "delay": 0
+        },
+        "bank_technique": "straight",
+        "notes": [
+          {
+            "start": 0,
+            "duration": 1.6,
+            "pitch": 72,
+            "lyric": "a"
+          },
+          {
+            "start": 2,
+            "duration": 1.6,
+            "pitch": 72,
+            "lyric": "e"
+          },
+          {
+            "start": 4,
+            "duration": 1.6,
+            "pitch": 72,
+            "lyric": "i"
+          },
+          {
+            "start": 6,
+            "duration": 1.6,
+            "pitch": 72,
+            "lyric": "o"
+          },
+          {
+            "start": 8,
+            "duration": 1.6,
+            "pitch": 72,
+            "lyric": "u"
+          }
+        ]
+      },
+      "tuning": {
+        "enabled": false,
+        "key": 0,
+        "scale": "chromatic",
+        "strength": 1,
+        "speed_ms": 35,
+        "wet": 1
+      },
+      "enabled": true
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+// VocalSet by Wilkins, Seetharaman, Wahl & Pardo. CC BY 4.0. See ATTRIBUTION.md.
+// Edited/looped by Cantabile. Select vowel: MIDI 24 a, 25 e, 26 i, 27 o, 28 u.
+<global> sw_lokey=24 sw_hikey=28 sw_default=24 ampeg_attack=0.015 ampeg_release=0.18
+<group> sw_last=24 sw_label=a
+<region> sample=../samples/m9/breathy_a_60_0.wav pitch_keycenter=60 tune=12 lokey=53 hikey=60 loop_mode=loop_continuous loop_start=8675 loop_end=27550
+<region> sample=../samples/m9/breathy_a_62_1.wav pitch_keycenter=62 tune=13 lokey=61 hikey=63 loop_mode=loop_continuous loop_start=7414 loop_end=22678
+<region> sample=../samples/m9/breathy_a_65_2.wav pitch_keycenter=65 tune=24 lokey=64 hikey=69 loop_mode=loop_continuous loop_start=7802 loop_end=24176
+<region> sample=../samples/m9/breathy_a_74_3.wav pitch_keycenter=74 tune=24 lokey=70 hikey=81 loop_mode=loop_continuous loop_start=6152 loop_end=17804
+<group> sw_last=25 sw_label=e
+<region> sample=../samples/m9/breathy_e_60_0.wav pitch_keycenter=60 tune=21 lokey=53 hikey=61 loop_mode=loop_continuous loop_start=10421 loop_end=34298
+<region> sample=../samples/m9/breathy_e_64_1.wav pitch_keycenter=64 tune=-16 lokey=62 hikey=66 loop_mode=loop_continuous loop_start=10906 loop_end=36172
+<region> sample=../samples/m9/breathy_e_69_2.wav pitch_keycenter=69 tune=14 lokey=67 hikey=70 loop_mode=loop_continuous loop_start=6153 loop_end=17805
+<region> sample=../samples/m9/breathy_e_72_3.wav pitch_keycenter=72 tune=16 lokey=71 hikey=79 loop_mode=loop_continuous loop_start=6249 loop_end=18179
+<group> sw_last=26 sw_label=i
+<region> sample=../samples/m9/breathy_i_60_0.wav pitch_keycenter=60 tune=20 lokey=53 hikey=60 loop_mode=loop_continuous loop_start=8772 loop_end=27925
+<region> sample=../samples/m9/breathy_i_62_1.wav pitch_keycenter=62 tune=14 lokey=61 hikey=63 loop_mode=loop_continuous loop_start=6152 loop_end=17804
+<region> sample=../samples/m9/breathy_i_64_2.wav pitch_keycenter=64 tune=-22 lokey=64 hikey=68 loop_mode=loop_continuous loop_start=8287 loop_end=26051
+<region> sample=../samples/m9/breathy_i_72_3.wav pitch_keycenter=72 tune=10 lokey=69 hikey=79 loop_mode=loop_continuous loop_start=6928 loop_end=20803
+<group> sw_last=27 sw_label=o
+<region> sample=../samples/m9/breathy_o_60_0.wav pitch_keycenter=60 tune=21 lokey=53 hikey=61 loop_mode=loop_continuous loop_start=9160 loop_end=29425
+<region> sample=../samples/m9/breathy_o_64_1.wav pitch_keycenter=64 tune=13 lokey=62 hikey=67 loop_mode=loop_continuous loop_start=7220 loop_end=21927
+<region> sample=../samples/m9/breathy_o_71_2.wav pitch_keycenter=71 tune=36 lokey=68 hikey=72 loop_mode=loop_continuous loop_start=6734 loop_end=20053
+<region> sample=../samples/m9/breathy_o_73_3.wav pitch_keycenter=73 tune=-36 lokey=73 hikey=80 loop_mode=loop_continuous loop_start=7123 loop_end=21552
+<group> sw_last=28 sw_label=u
+<region> sample=../samples/m9/breathy_u_60_0.wav pitch_keycenter=60 tune=26 lokey=53 hikey=61 loop_mode=loop_continuous loop_start=8966 loop_end=28675
+<region> sample=../samples/m9/breathy_u_64_1.wav pitch_keycenter=64 tune=13 lokey=62 hikey=65 loop_mode=loop_continuous loop_start=6735 loop_end=20054
+<region> sample=../samples/m9/breathy_u_67_2.wav pitch_keycenter=67 tune=31 lokey=66 hikey=68 loop_mode=loop_continuous loop_start=6443 loop_end=18929
+<region> sample=../samples/m9/breathy_u_71_3.wav pitch_keycenter=71 tune=26 lokey=69 hikey=78 loop_mode=loop_continuous loop_start=7123 loop_end=21552

@@ -1,0 +1,19 @@
+// VocalSet by Wilkins, Seetharaman, Wahl & Pardo. CC BY 4.0. See ATTRIBUTION.md.
+// Edited/looped by Cantabile. Select vowel: MIDI 24 a, 25 e, 26 i, 27 o, 28 u.
+<global> sw_lokey=24 sw_hikey=28 sw_default=24 ampeg_attack=0.015 ampeg_release=0.18
+<group> sw_last=24 sw_label=a
+<region> sample=../samples/m7/straight_a_60_0.wav pitch_keycenter=60 tune=1 lokey=53 hikey=67 loop_mode=loop_continuous loop_start=24829 loop_end=89963
+<group> sw_last=25 sw_label=e
+<region> sample=../samples/m7/straight_e_48_0.wav pitch_keycenter=48 tune=27 lokey=41 hikey=53 loop_mode=loop_continuous loop_start=14787 loop_end=51166
+<region> sample=../samples/m7/straight_e_60_1.wav pitch_keycenter=60 tune=18 lokey=54 hikey=67 loop_mode=loop_continuous loop_start=24829 loop_end=89963
+<group> sw_last=26 sw_label=i
+<region> sample=../samples/m7/straight_i_48_0.wav pitch_keycenter=48 tune=33 lokey=41 hikey=53 loop_mode=loop_continuous loop_start=11391 loop_end=38046
+<region> sample=../samples/m7/straight_i_60_1.wav pitch_keycenter=60 tune=5 lokey=54 hikey=62 loop_mode=loop_continuous loop_start=24829 loop_end=89963
+<region> sample=../samples/m7/straight_i_65_2.wav pitch_keycenter=65 tune=15 lokey=63 hikey=72 loop_mode=loop_continuous loop_start=24829 loop_end=89963
+<group> sw_last=27 sw_label=o
+<region> sample=../samples/m7/straight_o_48_0.wav pitch_keycenter=48 tune=25 lokey=41 hikey=53 loop_mode=loop_continuous loop_start=21094 loop_end=75532
+<region> sample=../samples/m7/straight_o_60_1.wav pitch_keycenter=60 tune=1 lokey=54 hikey=67 loop_mode=loop_continuous loop_start=16728 loop_end=58663
+<group> sw_last=28 sw_label=u
+<region> sample=../samples/m7/straight_u_48_0.wav pitch_keycenter=48 tune=23 lokey=41 hikey=53 loop_mode=loop_continuous loop_start=10810 loop_end=35798
+<region> sample=../samples/m7/straight_u_60_1.wav pitch_keycenter=60 tune=10 lokey=54 hikey=62 loop_mode=loop_continuous loop_start=24829 loop_end=89963
+<region> sample=../samples/m7/straight_u_65_2.wav pitch_keycenter=65 tune=10 lokey=63 hikey=72 loop_mode=loop_continuous loop_start=24829 loop_end=89963
