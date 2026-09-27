@@ -24,11 +24,12 @@ Akai's official [MPK mini IV FAQ](https://support.akaipro.com/en/support/solutio
 documents 25 velocity-sensitive keys, eight velocity-sensitive pads, eight
 endless knobs, USB-C MIDI, five-pin MIDI output, and the port roles.
 
-## The “Mk 404”
+## Roland SP-404MKII — confirmed
 
-The exact make and model still needs confirmation. If it is a **Roland
-SP-404MKII**, Roland documents USB audio and MIDI, so it is a candidate audio
-input/output device for the computer and a destination for rendered vocal WAVs.
+Scott confirmed that his 404 is the **Roland SP-404MKII**. Roland documents USB
+audio and MIDI, so the proposed setup uses it as the computer's audio
+input/output device and as a sampler for rendered vocal WAVs, with the Akai
+handling melody entry and assignable vocal controls.
 This is a proposed workflow, not verified compatibility with this prototype.
 Cantabile currently records the browser-selected default audio input.
 
