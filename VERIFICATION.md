@@ -1,5 +1,23 @@
 # Verification — prototype 0.2
 
+## Live hardware controls — September 27, 2026
+
+- 11 hardware-control tests pass: validated MIDI messages, channel/device
+  isolation, learn-event consumption, storage validation and failure recovery,
+  reconnect/port replacement, pending permission cancellation, absolute/relative
+  knob bounds and selected audio-device persistence.
+- The full DOM check now drives the real app bridge: a learned vowel plus a
+  keyboard note produces a score accepted by the Python API; knobs change the
+  score and respect disabled sampled-voice controls. It also verifies two
+  sequential captures, duplicate-click prevention, exact device constraints,
+  cleanup and device-loss/error handling with simulated media/Web Audio objects.
+- Python: **32 run, 31 passed, one optional neural test skipped**. The HTTP suite
+  checks that the new hardware script is served with JavaScript content type.
+- Physical controllers, USB audio, browser permission UI, actual recording audio
+  and browser layout have not been accepted. Prior sandbox restrictions remain.
+  No new browser/hardware acceptance is claimed.
+
+
 ## Volta companion import — September 27, 2026
 
 - The companion is under `tools/cantabile`; it is a separate Python app, not a
@@ -18,8 +36,8 @@
 - Volta's `npm test`, `npm run lint`, `npm run typecheck` and `npm run build`
   passed with the companion present. Cantabile has an independent CI workflow.
 - No new real-browser, physical-controller, Windows or microphone acceptance is
-  claimed. The prior browser sandbox rejection still applies. The Akai/404
-  mapping in `HARDWARE.md` is a proposed follow-up, not implemented support.
+  claimed. The prior browser sandbox rejection still applies. The later hardware-control pass above adds MIDI and input selection;
+  `HARDWARE.md` distinguishes implemented behavior from physical acceptance.
 
 ## Passed in this environment
 

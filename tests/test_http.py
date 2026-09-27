@@ -36,6 +36,11 @@ class LocalAPITests(unittest.TestCase):
         with self.assertRaises(urllib.error.HTTPError) as e:self.request('/api/validate',demo(),{'Origin':'https://example.com'})
         self.assertEqual(e.exception.code,400)
 
+    def test_hardware_script_is_served(self):
+        with self.opener.open(self.base+'/hardware.js',timeout=10) as response:
+            self.assertIn('javascript',response.headers['Content-Type'])
+            self.assertIn(b'CantabileHardware',response.read())
+
     def test_invalid_project_returns_actionable_error(self):
         p=demo();p['tracks'][0]['notes'][0]['pitch']=float('nan')
         with self.assertRaises(urllib.error.HTTPError) as e:self.request('/api/validate',p)

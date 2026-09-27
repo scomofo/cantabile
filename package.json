@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "test:browser": "node tests/browser.cjs",
-    "test:dom": "node tests/dom.cjs"
+    "test:dom": "node tests/dom.cjs",
+    "test:hardware": "node --test tests/hardware.test.cjs"
   },
   "devDependencies": {
     "playwright": "^1.61.0",

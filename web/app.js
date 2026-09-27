@@ -4,6 +4,7 @@ const vocalRoles=['solo','soprano','mezzo','alto','tenor','baritone','bass'];
 const names={solo:'Solo voice',soprano:'Soprano',mezzo:'Mezzo-soprano',alto:'Alto',tenor:'Tenor',baritone:'Baritone',bass:'Bass'};
 const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const pitchName=n=>['C','C♯','D','D♯','E','F','F♯','G','G♯','A','A♯','B'][n%12]+(Math.floor(n/12)-1);
+let hardware=null,hardwarePart=null,hardwareProject=null,recordBusy=false;
 let project,active='solo',ranges={},job=null,pendingMidi=null,recorded=null,recording=null,renderSnapshot=null,bank=[],renderKind='score';
 const current=()=>project.tracks.find(t=>t.id===active)||project.tracks[0];
 const bankVoice=t=>bank.find(v=>v.id===t.voice);
@@ -70,7 +71,7 @@ function drawVox(){
  $('baseline-create').disabled=t.voice==='imported';$('baseline-reset').disabled=!t.baseline;$('baseline-listen').disabled=!t.baseline;$('baseline-info').textContent=t.baseline?'Baseline saved · adjustments leave it intact.':'Create a neutral starting performance for this voice.';
  $('vox-hint').textContent=bankVoice(t)?'Recorded techniques keep their natural expression. Vibrato adds modulation; formant shaping is unavailable for samples.':t.voice==='imported'?'Tone, grit and delay affect your recording. Synthesis controls require a neural voice.':'Glide connects adjacent notes. Rhythmic delivery suppresses vibrato. Formant changes vocal color; pitch remains separate.';
 }
-function draw(){if(!project)return;drawSections();drawControls();drawRoll();drawNotes();drawVox();drawPattern();drawBank();drawTuning();$('title').value=project.title;$('tempo').value=project.tempo;$('quality').value=project.quality;$('reverb').value=project.reverb;$('wet').textContent=Math.round(project.reverb*100)+'%';}
+function draw(){if(!project)return;if(hardware&&(hardwarePart!==active||hardwareProject!==project)){hardware.reset('Part changed. Note entry disarmed.');hardwarePart=active;hardwareProject=project;}drawSections();drawControls();drawRoll();drawNotes();drawVox();drawPattern();drawBank();drawTuning();$('title').value=project.title;$('tempo').value=project.tempo;$('quality').value=project.quality;$('reverb').value=project.reverb;$('wet').textContent=Math.round(project.reverb*100)+'%';}
 async function render(solo=false,override=null,kind='score'){
  if(job)return;const snapshot=clone(override||project);renderKind=kind;if(solo)snapshot.tracks.forEach(t=>t.enabled=t.id===active);
  renderSnapshot=JSON.stringify(project);const result=await api('/api/render',snapshot);job=result.id;
@@ -99,8 +100,38 @@ $('midi-cancel').onclick=()=>$('midi-dialog').close();$('midi-confirm').onclick=
 async function importStem(file){const t=current();if(!isVocal(t))throw Error('Select a vocal section first.');const r=await api('/api/stem',{project,track:t.id,data:await base64(file)});Object.assign(t,r,{voice:'imported',singers:1});changed();draw();status(`Voice recording assigned to ${t.name}. It plays from the project start.`);}
 $('import-stem').onclick=()=>$('file-stem').click();$('file-stem').onchange=handle(async e=>{const f=e.target.files[0];if(!f)return;if(f.size>30_000_000)throw Error('Use a WAV smaller than 30 MB.');await importStem(f);e.target.value='';});
 function wavBlob(samples,sampleRate){const out=new ArrayBuffer(44+samples.length*2),v=new DataView(out);function str(at,s){[...s].forEach((c,i)=>v.setUint8(at+i,c.charCodeAt(0)));}str(0,'RIFF');v.setUint32(4,36+samples.length*2,true);str(8,'WAVE');str(12,'fmt ');v.setUint32(16,16,true);v.setUint16(20,1,true);v.setUint16(22,1,true);v.setUint32(24,sampleRate,true);v.setUint32(28,sampleRate*2,true);v.setUint16(32,2,true);v.setUint16(34,16,true);str(36,'data');v.setUint32(40,samples.length*2,true);samples.forEach((x,i)=>v.setInt16(44+i*2,Math.round(Math.max(-1,Math.min(1,x))*32767),true));return new Blob([out],{type:'audio/wav'});}
-async function stopRecording(){const r=recording;if(!r)return;recording=null;clearInterval(r.timer);r.node.disconnect();r.source.disconnect();r.stream.getTracks().forEach(t=>t.stop());await r.context.close();const len=r.chunks.reduce((n,c)=>n+c.length,0),all=new Float32Array(len);let offset=0;for(const c of r.chunks){all.set(c,offset);offset+=c.length;}recorded=wavBlob(all,r.rate);if($('recording').src)URL.revokeObjectURL($('recording').src);$('recording').src=URL.createObjectURL(recorded);$('recording').hidden=false;$('use-notes').disabled=false;$('use-stem').disabled=false;$('record').textContent='● Record mic';$('record').classList.remove('active');$('record-clock').textContent=(len/r.rate).toFixed(1)+' seconds recorded';status('Recording ready. Turn it into notes or use it as the selected section’s voice.');}
-$('record').onclick=handle(async()=>{if(recording){await stopRecording();return;}if(!navigator.mediaDevices?.getUserMedia)throw Error('Microphone input requires localhost or HTTPS in a supported browser.');let stream,context;try{stream=await navigator.mediaDevices.getUserMedia({audio:{echoCancellation:false,noiseSuppression:false,autoGainControl:false},video:false});context=new AudioContext();await context.audioWorklet.addModule('/recorder.js');await context.resume();const source=context.createMediaStreamSource(stream),node=new AudioWorkletNode(context,'cantabile-recorder'),mute=context.createGain();mute.gain.value=0;source.connect(node).connect(mute).connect(context.destination);const r={stream,context,source,node,chunks:[],rate:context.sampleRate,start:performance.now()};recording=r;node.port.onmessage=e=>{if(recording===r)r.chunks.push(e.data);};r.timer=setInterval(()=>{const seconds=(performance.now()-r.start)/1000;$('record-clock').textContent=seconds.toFixed(1)+' / 60 seconds';if(seconds>=60)stopRecording().catch(e=>status(e.message,true));},100);$('record').textContent='■ Stop recording';$('record').classList.add('active');status('Recording microphone. Sing one melody at a time.');}catch(e){stream?.getTracks().forEach(t=>t.stop());if(context)await context.close();throw Error(e.name==='NotAllowedError'?'Microphone permission was denied. Allow it in your browser, then try Record mic again.':e.message);}});
+async function stopRecording(){
+ const r=recording;if(!r)return;recording=null;recordBusy=true;$('record').disabled=true;clearInterval(r.timer);
+ try{
+  r.node.port.onmessage=null;r.node.disconnect();r.source.disconnect();r.stream.getTracks().forEach(t=>t.stop());
+  await r.context.close();
+  const len=r.chunks.reduce((n,c)=>n+c.length,0);
+  if(!len){status('No audio was captured. Check the selected input and try again.',true);return;}
+  const all=new Float32Array(len);let offset=0;for(const c of r.chunks){all.set(c,offset);offset+=c.length;}
+  recorded=wavBlob(all,r.rate);if($('recording').src)URL.revokeObjectURL($('recording').src);
+  $('recording').src=URL.createObjectURL(recorded);$('recording').hidden=false;$('use-notes').disabled=false;$('use-stem').disabled=false;
+  $('record-clock').textContent=(len/r.rate).toFixed(1)+' seconds recorded';status('Recording ready. Turn it into notes or use it as the selected section’s voice.');
+ }finally{recordBusy=false;$('record').disabled=false;$('record').textContent='● Record mic';$('record').classList.remove('active');hardware?.setRecording(false);}
+}
+$('record').onclick=handle(async()=>{
+ if(recordBusy)return;if(recording){await stopRecording();return;}
+ if(!navigator.mediaDevices?.getUserMedia)throw Error('Microphone input requires localhost or HTTPS in a supported browser.');
+ recordBusy=true;$('record').disabled=true;hardware?.setRecording(true);let stream,context;
+ try{
+  stream=await navigator.mediaDevices.getUserMedia({audio:hardware.audioConstraints(),video:false});
+  context=new AudioContext();await context.audioWorklet.addModule('/recorder.js');await context.resume();
+  const source=context.createMediaStreamSource(stream),node=new AudioWorkletNode(context,'cantabile-recorder'),mute=context.createGain();
+  mute.gain.value=0;source.connect(node).connect(mute).connect(context.destination);
+  const r={stream,context,source,node,chunks:[],rate:context.sampleRate,start:performance.now()};recording=r;
+  node.port.onmessage=e=>{if(recording===r)r.chunks.push(e.data);};
+  for(const track of stream.getTracks())track.addEventListener('ended',()=>{if(recording===r)stopRecording().catch(e=>status(e.message,true));},{once:true});
+  r.timer=setInterval(()=>{const seconds=(performance.now()-r.start)/1000;$('record-clock').textContent=seconds.toFixed(1)+' / 60 seconds';if(seconds>=60)stopRecording().catch(e=>status(e.message,true));},100);
+  $('record').textContent='■ Stop recording';$('record').classList.add('active');status('Recording the selected input. Sing one melody at a time.');
+ }catch(e){
+  stream?.getTracks().forEach(t=>t.stop());if(context)await context.close();
+  throw Error(e.name==='NotAllowedError'?'Microphone permission was denied. Allow it in your browser, then try Record mic again.':['NotFoundError','OverconstrainedError'].includes(e.name)?'Selected audio input is unavailable. Reconnect it, refresh inputs, and select a device.':e.message);
+ }finally{recordBusy=false;$('record').disabled=false;hardware?.setRecording(!!recording);}
+});
 $('use-stem').onclick=handle(()=>importStem(recorded));
 $('use-notes').onclick=handle(async()=>{if(!recorded)return;status('Finding the guide melody…');const r=await api('/api/mic/notes',{data:await base64(recorded),tempo:project.tempo});if(!confirm(`Replace ${current().name} with ${r.notes.length} detected notes? You can edit them afterward.`))return;const p=clone(project),t=p.tracks.find(t=>t.id===active);t.notes=r.notes;if(t.voice==='imported')t.voice=['tenor','baritone','bass'].includes(t.role)?'tiger':'hanami';project=(await api('/api/validate',p)).project;changed();draw();status(r.message);});
 let selectedStep=0;
@@ -177,5 +208,29 @@ function drawTuning(){
 for(const prop of ['enabled','key','scale','strength','speed_ms','wet'])$('tune-'+prop).onchange=e=>{const t=current();t.tuning[prop]=prop==='enabled'?e.target.checked:prop==='scale'?e.target.value:Number(e.target.value);changed();drawTuning();};
 $('tune-apply').onclick=()=>{const t=current();t.tuning={...tuningDefaults,...t.tuning,enabled:true,strength:$('tune-preset').value==='hard'?1:.65,speed_ms:$('tune-preset').value==='hard'?0:100,wet:1};changed();drawTuning();status('Pitch correction configured. Solo this part to hear it.');};
 
+hardware=window.CantabileHardware.mount({
+ recording:()=>!!recording||recordBusy,
+ stop:()=>{for(const id of ['player','bank-preview','recording','input-original']){const player=$(id);if(player.getAttribute('src')){player.pause();player.currentTime=0;}}},
+ play:()=>{const player=$('player');if(!player.getAttribute('src')){status('Render a performance first, then play it from your pad.',true);return;}player.currentTime=0;player.play().catch(()=>status('Press Play latest render once in the page to allow audio playback.',true));},
+ note:(pitch,velocity,duration,vowel)=>{
+  if(!project)throw Error('Wait for the project to load.');const t=current();
+  if(!isVocal(t)||t.voice==='imported')throw Error('Choose a generated vocal part for MIDI note entry.');
+  if(pitch<24||pitch>96)throw Error('Use MIDI pitches 24–96; adjust the keyboard octave.');
+  const start=Math.max(0,...t.notes.map(n=>n.start+n.duration));
+  if(t.notes.length>=256||start>160||(start+duration)*60/project.tempo>60)throw Error('This part has reached the prototype note or 60-second limit.');
+  const phonemes={a:'aa',e:'eh',i:'iy',o:'ow',u:'uw'};
+  t.notes.push({start,duration,pitch,lyric:vowel,phonemes:phonemes[vowel],accent:velocity>=100});changed();draw();
+ },
+ vowel:v=>{if(!project||!isVocal(current()))return;const cell=current().pattern?.cells[selectedStep];if(cell&&!cell.tie){cell.vowel={a:'aa',e:'eh',i:'iy',o:'ow',u:'uw'}[v];changed();drawPattern();}},
+ next:()=>{if(!project||!isVocal(current()))return;selectedStep=(selectedStep+1)%16;drawPattern();},
+ control:(target,value,mode,map)=>{
+  if(!project)throw Error('Wait for the project to load.');
+  const id=target==='strength'?'tune-strength':['gain','pan'].includes(target)?target:'vox-'+target;
+  const input=$(id);
+  if(!input||input.disabled||(target==='strength'&&current().voice!=='imported')||(!['gain','pan','strength'].includes(target)&&!isVocal(current())))throw Error('This control is unavailable for the selected voice.');
+  input.value=map(value,mode,Number(input.value),Number(input.min),Number(input.max),Number(input.step));
+  input.dispatchEvent(new Event(target==='strength'?'change':'input'));
+ }
+});
 window.addEventListener('beforeunload',()=>recording?.stream.getTracks().forEach(t=>t.stop()));
 (async()=>{try{const state=await api('/api/state');ranges=state.ranges;bank=state.bank||[];project=state.demo;const saved=localStorage.getItem('cantabile-project-v1');if(saved){try{project=(await api('/api/validate',JSON.parse(saved))).project;}catch(e){status('Saved draft needs repair; the example is open. Your saved data has not been overwritten. '+e.message,true);}}active=project.tracks[0].id;$('engine-status').textContent=state.voiceInstalled&&state.tigerInstalled?'English neural voices ready · male + female · local rendering':`${bank.length} recorded voices ready · neural lyrics need setup-voices-windows.bat`;draw();}catch(e){status('Cannot open the local engine: '+e.message,true);}})();

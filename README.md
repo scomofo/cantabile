@@ -5,8 +5,10 @@ A local, render-first composition app for Scott: build a choir, select individua
 New in 0.2: **20 recorded singers, 1,309 processed vowel samples, 78 SFZ patches, individual voice baselines, and offline pitch correction for input vocals.**
 
 In Volta this is a separate local companion, with WAV files as the handoff to a
-DAW or sampler. See [HARDWARE.md](HARDWARE.md) for the proposed Akai/404 control
-plan; live MIDI input to Cantabile is not implemented yet.
+DAW or sampler. Open **Play from hardware** for live MIDI step entry, pad/knob learning and
+saved mappings. The microphone panel includes an audio-input selector for the
+SP-404MKII or another available interface. See [HARDWARE.md](HARDWARE.md) for setup
+and the remaining physical validation steps.
 
 This is a working first prototype, not a finished orchestral workstation. It uses real neural singing synthesis and recorded orchestral samples. It does not substitute prerecorded phrases or pitch-shift text-to-speech.
 

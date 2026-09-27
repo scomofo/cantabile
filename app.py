@@ -70,7 +70,7 @@ class Handler(BaseHTTPRequestHandler):
                 file=ROOT/path.lstrip('/')
             elif re.fullmatch(r'/vocal-bank/previews/vs-[fm][0-9]+\.wav',path):file=ROOT/path.lstrip('/')
             elif re.fullmatch(r'/imports/[a-f0-9]{64}\.wav',path):file=ROOT/path.lstrip('/')
-            elif path in ('/','/app.js','/style.css','/recorder.js'):file=ROOT/'web'/('index.html' if path=='/' else path[1:])
+            elif path in ('/','/app.js','/style.css','/recorder.js','/hardware.js'):file=ROOT/'web'/('index.html' if path=='/' else path[1:])
             else:return self.respond({'error':'Not found'},404)
             if not file.is_file():return self.respond({'error':'Not found'},404)
             return self.respond(file.read_bytes(),kind=mimetypes.guess_type(file.name)[0] or 'application/octet-stream')
