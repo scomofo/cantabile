@@ -5,7 +5,10 @@ A local, render-first composition app for Scott: build a choir, select individua
 New in 0.2: **20 recorded singers, 1,309 processed vowel samples, 78 SFZ patches, individual voice baselines, and offline pitch correction for input vocals.**
 
 In Volta this is a separate local companion, with WAV files as the handoff to a
-DAW or sampler. Open **Play from hardware** for live MIDI step entry, pad/knob learning and
+DAW or sampler. For real-time playing, the **live link** connects the two apps:
+enable **Choir link** in Volta's header, choose a MIDI output port, and run
+`python live.py` here — the recorded singers then sing Volta's notes as you play
+them. See [LIVE_LINK.md](LIVE_LINK.md) for the full setup. Open **Play from hardware** for live MIDI step entry, pad/knob learning and
 saved mappings. The microphone panel includes an audio-input selector for the
 SP-404MKII or another available interface. See [HARDWARE.md](HARDWARE.md) for setup
 and the remaining physical validation steps.
