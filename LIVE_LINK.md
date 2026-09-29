@@ -42,15 +42,48 @@ Volta keyboard → Web MIDI out → virtual MIDI cable → live.py → your spea
 - `--midi-port`: exact or partial port name. Defaults to the first available
   input port.
 
+## Expressive control (Volta → choir)
+
+Beyond notes, Volta transmits standard MIDI messages on the same port:
+
+| Control | MIDI message | Effect on the choir |
+|---|---|---|
+| Pitch wheel | Pitch bend, ±2 semitones | Bends the sung pitch |
+| Mod wheel | CC1 (mod wheel) | Vowel morph a → e → i → o → u |
+| Choir dynamics slider | CC11 (expression) | Choir volume |
+| Glide knob / preset | CC5 (portamento time) | Glide between sung notes |
+
+The pitch wheel also bends Volta's own synth voice ±2 semitones, like the
+hardware. The mod wheel is dedicated to the choir — it does not change
+Volta's own sound.
+
+**Companion support status:** the live player currently responds to notes and
+all-notes-off only. Pitch bend, CC1, CC11, and CC5 are transmitted by Volta
+today but need a small live-player update to take effect: handle
+`pitch_bend` (scale each active note's pitch increment), CC1 (crossfade the
+vowel sample toward the next vowel), CC11 (scale note gain), and CC5 (set the
+glide time between notes). Until then they are sent and safely ignored.
+
+## Playing Volta from Cantabile (reverse direction)
+
+The link is bidirectional. Route Cantabile's MIDI output to the same virtual
+cable (or a second one, e.g. `Volta In`) and pick it in Volta's MIDI input —
+incoming notes play Volta's own Minimoog-style synth directly. Incoming notes
+are never echoed back to the MIDI output, so the two directions can't feed
+back into each other; use Volta's own keyboard or arpeggiator for choir
+parts. MIDI-learn knob mappings are unaffected.
+
 ## What it can and cannot do
 
 - **Can:** live, polyphonic singing of the recorded vowel bank — the same
   samples and pitch-shifting as the offline renderer, streamed per note with a
-  short attack and a 90 ms release.
+  short attack and a 90 ms release. Volta transmits pitch bend, vowel morph
+  (CC1), dynamics (CC11), and portamento time (CC5) for the choir; the live
+  player needs the update described above to respond to them.
 - **Cannot:** neural voices (`hanami`, `tiger`) — they are render-first and stay
-  in the offline app. No lyrics or consonants live; the singer holds one vowel.
-  No pitch bend yet — Volta's glide is not transmitted, so gliding notes sing
-  as stepped pitches.
+  in the offline app. No lyrics or consonants live; the singer holds one vowel
+  per note (vowel morph needs the live-player update). One voice per live
+  player instance — run more instances for a bigger choir.
 
 ## Troubleshooting
 
