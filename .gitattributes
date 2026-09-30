@@ -1,0 +1,4 @@
+# Treat sample and model binaries as opaque: no text diffs, no line-ending conversion.
+*.zip binary
+*.wav binary
+*.sfz binary
