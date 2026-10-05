@@ -4,7 +4,7 @@ A local, render-first composition app for Scott: build a choir, select individua
 
 New in 0.2: **20 recorded singers, 1,309 processed vowel samples, 78 SFZ patches, individual voice baselines, and offline pitch correction for input vocals.**
 
-In Volta this is a separate local companion, with WAV files as the handoff to a
+Cantabile is a separate local companion to Volta, with WAV files as the handoff to a
 DAW or sampler. For real-time playing, the **live link** connects the two apps:
 enable **Choir link** in Volta's header, choose a MIDI output port, and run
 `python live.py` here — the recorded singers then sing Volta's notes as you play
@@ -17,7 +17,7 @@ This is a working first prototype, not a finished orchestral workstation. It use
 
 ## Start on Windows
 
-1. Open `tools/cantabile` in your Volta checkout, or extract the standalone Cantabile ZIP to a normal folder.
+1. Clone this repo (or open `tools/cantabile` in a Volta checkout, where Cantabile is included as a submodule) to a normal folder.
 2. Install **Python 3.12 or 3.13, 64-bit** from https://www.python.org/downloads/windows/ if you do not already have it.
 3. Double-click **setup-windows.bat** once. It installs Python dependencies into a project-local environment and downloads two original voicebanks, about **1.1 GB total**. Allow several minutes and at least 4 GB of free disk space. See the voice terms in THIRD_PARTY.md.
    For the recorded bank and microphone correction without the 1.1 GB neural download, use **setup-bank-only-windows.bat** instead. You can add neural lyrics later with **setup-voices-windows.bat**.
