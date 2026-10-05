@@ -1,0 +1,46 @@
+name: Cantabile companion
+
+on:
+  push:
+    branches: [main, "scout/**"]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  recorded-bank-and-interface:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      ORT_DISABLE_TELEMETRY: "1"
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: requirements-tested.txt
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 24
+          cache: npm
+          cache-dependency-path: package-lock.json
+      - name: Install companion dependencies
+        run: |
+          python -m pip install -r requirements-tested.txt
+          npm ci
+      - name: Verify and unpack included recorded voices
+        run: python prepare_bank.py
+      - name: Check Python, recorded bank, and pitch correction
+        # Neural synthesis acceptance explicitly skips without separately installed models.
+        run: python -m unittest discover -s tests -v
+      - name: Check browser-script syntax
+        run: |
+          node --check web/app.js
+          node --check web/recorder.js
+          node --check web/hardware.js
+      - name: Check MIDI and audio device handling
+        run: npm run test:hardware
+      - name: Check interface behavior without neural models
+        run: npm run test:dom
